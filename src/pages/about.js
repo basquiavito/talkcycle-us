@@ -23,6 +23,7 @@ function About() {
                 max-width: 800px;
                 margin: 0 auto;
                 padding: 50px;
+                font-family: Walfolk;
               }
           
               h1 {
@@ -30,6 +31,7 @@ function About() {
                 font-weight: bold;
                 text-align: center;
                 margin-bottom: 30px;
+                font-family: Walfolk;
               }
           
               h2 {
@@ -37,6 +39,7 @@ function About() {
                 font-weight: bold;
                 margin-top: 50px;
                 text-align: center;
+                font-family: Walfolk;
               }
           
               p {
@@ -52,10 +55,10 @@ function About() {
           
               li {
                 margin-top: 10px;
-                margin-left: 20px;
+                 
                 font-size: 18px;
                 line-height: 1.5;
-                padding: 20px;
+           padding: 1rem;
                 background-color: #f7f7f7;
                 border-radius: 10px;
                 list-style-type: none;
@@ -66,7 +69,7 @@ function About() {
           }
               @media (max-width: 600px) {
                 div {
-                  padding: 20px;
+                  padding: 10px;
                 }
           
                 h1 {
@@ -88,7 +91,9 @@ function About() {
                 }
               }  
             
-            
+            h3{
+                font-family: Walfolk; 
+            }
             
             
             

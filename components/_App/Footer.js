@@ -1,5 +1,5 @@
 import styles from '@/styles/footer.module.css'
-
+import Link from 'next/link'
 
 export default function footer(){
     return <>
@@ -25,7 +25,7 @@ export default function footer(){
 
 <div className={styles.siteFooterAbout}>
  <p className={styles.siteFooterAboutText}>
-Online Spanish Course
+<Link href="/about"><span className='linkets'>About</span></Link>  
  </p>   
 <br/> 
 <div className={styles.socialIcons}>
@@ -65,8 +65,8 @@ Online Spanish Course
 </ul>
 </div>
 <hr/><br/>
- <p className={styles.siteFooterAboutText}   >
- Site map | About | Newsletter  | Contact us   </p> 
+ <ul className={styles.siteFooterAboutText}   >
+ Site map | About | Newsletter  | Contact us   </ul> 
 </div><br/>
 
  
@@ -120,6 +120,10 @@ nav {
 footer {
     background-color:  #000;
 } 
+
+.linkets {
+    color: #fff;
+}
  
 `}    
 </style>
