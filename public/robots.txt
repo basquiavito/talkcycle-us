@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.talkcycle.net
+
+# Sitemaps
+Sitemap: https://www.talkcycle.net/sitemap.xml
