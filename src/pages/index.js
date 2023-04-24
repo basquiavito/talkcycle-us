@@ -107,6 +107,15 @@ gtag('config', 'G-ZJHY29V7WF');
  ga('send', 'pageview');`}
  </Script>
    {/* GA end */}
+
+
+   <style jxs>{`
+  main{
+    min-height: 1000px;
+  } 
+   
+   
+   `}</style>
     </>
   )
 }
