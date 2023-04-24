@@ -73,7 +73,7 @@ export default function Home() {
       <h1>Talkcycle</h1>
 
 
-      <p>Talkcycle</p>
+      <p>Talkcycle mas</p>
       </main>
 
 
