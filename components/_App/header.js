@@ -55,6 +55,10 @@ function Header( ) {
    a {
     color: #181818;
    }
+
+   h1{
+    font-family: Walfolk;
+   }
    `}
  </style>
  
