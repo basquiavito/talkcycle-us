@@ -15,10 +15,10 @@ export default function Home() {
  <title>Talkcycle</title>
  <meta name="Description" content="Talkcycle.net — Take your Spanish skills to the next level with Talkcycle's online Spanish course for adults. Our self-paced beginner's course includes easy online Spanish lessons and conversation classes through Zoom, designed to help you become fluent. Submit your practice conversations and receive expert feedback from our instructors, plus one live session a week for assistance and support. Choose the best online Spanish course  and start speaking Spanish like a pro with Talkcycle today!  "/>
  <meta property="og:url" content="https://talkcycle.net/"/>
- <meta property="og:type" content="article"/>
+ <meta property="og:type" content="homepage"/>
  <meta property="og:title" content='Talkcycle: Online Spanish Course  | Hooperos'/>
  <meta property="og:description" content="Talkcycle.net — Take your Spanish skills to the next level with Talkcycle's online Spanish course for adults. Our self-paced beginner's course includes easy online Spanish lessons and conversation classes through Zoom, designed to help you become fluent. Submit your practice conversations and receive expert feedback from our instructors, plus one live session a week for assistance and support. Choose the best online Spanish course  and start speaking Spanish like a pro with Talkcycle today!   "/>
- <meta property="og:image" content='https://res.cloudinary.com/www-hoopscript-com/image/upload/v1680128008/assets/logoInSvg.svg'></meta>
+ <meta property="og:image" content=''></meta>
  
  <link rel="icon" type="image/svg" href=""/>
  
@@ -39,7 +39,7 @@ export default function Home() {
  
   
  <meta name="twitter:card" content="summary_large_image"></meta>
- <meta name="twitter:creator" content="@talkcycle"></meta>
+ <meta name="twitter:creator" content="@talkcycle_us"></meta>
  <meta name="twitter:title" content='Home'/> 
  <meta name="twitter:description" content="Talkcycle.net — Take your Spanish skills to the next level with Talkcycle's online Spanish course for adults. Our self-paced beginner's course includes easy online Spanish lessons and conversation classes through Zoom, designed to help you become fluent. Submit your practice conversations and receive expert feedback from our instructors, plus one live session a week for assistance and support. Choose the best online Spanish course  and start speaking Spanish like a pro with Talkcycle today!   "></meta>
  <meta name="article:author" content='Talkcycle'></meta>
