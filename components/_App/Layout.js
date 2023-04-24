@@ -1,5 +1,5 @@
-import Header from './Header'
-   import Subheader from './subHeader'
+import Header from '../_App/header'
+   import Subheader from '../_App/subheader'
 import Footer from './Footer'
  import { Container } from 'semantic-ui-react'
  import { Analytics } from '@vercel/analytics/react'
