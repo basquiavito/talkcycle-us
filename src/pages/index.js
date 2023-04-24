@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-
+import Script from 'next/script'
 
 
 export default function Home() {
@@ -66,7 +66,17 @@ export default function Home() {
  
  <meta name="keywords" content='online spanish course for adults, online spanish beginners course, online spanish conversation classes, online spanish lessons easy, best online spanish course for high school students, online spanish courses to become fluent, online spanish classes zoom
 ' ></meta>
- 
+   <Script src="https://www.googletagmanager.com/gtag/js?id=G-ZJHY29V7WF"   strategy='afterInteractive'   /> 
+
+  <Script
+  id="gta-tags" strategy='afterInteractive'>
+ {`
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-ZJHY29V7WF');
+ `}
+ </Script>
       </Head>
       <main >
       <h1>Talkcycle</h1>
