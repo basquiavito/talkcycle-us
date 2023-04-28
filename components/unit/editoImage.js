@@ -9,11 +9,11 @@ function image(props){
 <div className="heroImageLink">
  
   <Image
- src={`https://res.cloudinary.com/dwq5dlyvd/image/upload/c_scale,h_380,w_680/${props.image}`}
+ src={`https://res.cloudinary.com/dwq5dlyvd/image/upload/${props.image}`}
  alt={`${props.title}`}
- width="680"
- height="380"
- style={{objectFit:"cover"}}
+ width="310"
+ height="320"
+ style={{}}
  className="sizeImage"
  priority
 
