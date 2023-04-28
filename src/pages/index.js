@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
 import Heading from '../../components/unit/heading'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -73,9 +74,9 @@ export default function Home() {
         <Heading />
         <div className={styles.grid}>
         <div className={styles.card}>
-          <h3>Top-Notch Spanish Practice</h3>
+          <h3>Fundamental Spanish Classes</h3>
           <ul>
-            <li>Spanish sentences to practice</li>
+            <Link href=""><li>Spanish sentences to practice</li></Link>
             <li>Spanish practice conversation</li>
             <li>Spanish practice free</li>
             <li>Spanish practice listening</li>

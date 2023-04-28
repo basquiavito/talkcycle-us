@@ -1,0 +1,198 @@
+db.articles.updateOne(
+   
+    {"_id" : ObjectId("644c1969b48acda8c1f33b07")},
+
+    {"$set" : {
+     
+    "category":"article",
+   "ready":true,
+   "title":"Spanish practice with the verb: gustar ",
+   "author":"Basquiavito",
+   "date":"April 26, 2023",
+   "dekk":"",
+   "image":"v1682709506/talkcycle/spanishpracticewith/Spanish%20practice%20with%20gustar.jpg",
+   "keywords":"Spanish classes, online spanish, spanish practice with gustar",
+   "player":"word",
+   
+   "lead":
+   {
+   
+   "preLink":"If you're a Spanish learner, you've probably come across the verb gustar at some point. It's a tricky verb that can be a challenge to master, but it's essential if you want to become proficient in the language. In this article, we'll explore the ins and outs of gustar and provide tips and resources to help you improve your skills. ",
+   "linkto":"",
+   "linktxt":"",
+   "postLink":"",
+   "linkto0":"",
+   "linktxt0":"",
+   "postLink0":"",
+   "preLink0":""
+   
+   },
+    
+   
+   
+   
+   "nutgraph0":{"preLink":"Gustar is a verb that means —to like. However, it's used differently than the English verb 'like'. In Spanish, gustar is often used with an indirect object pronoun (me, te, le, nos, les) to indicate who the liking is directed towards. For example, instead of saying 'I like chocolate,' you would say 'Me gusta el chocolate,' which literally translates to 'The chocolate pleases me.'",
+   "linkto":"",
+   "linktxt":"",
+   "postLink":"",
+   "preLink0":"",
+   "linkto0":"",
+   "linktxt0":"",
+   "postLink0":""},
+   "nutgraph1":{"preLink":"When it comes to using gustar, it's important to remember that the subject of the sentence is actually the thing or activity being liked, not the person doing the liking. This means that the verb needs to agree with the thing or activity being liked, not the person doing the liking. For example, if you wanted to say 'I like apples,' you would say 'Me gustan las manzanas,' with the verb gustar agreeing with the plural noun manzanas (apples). On the other hand, if you wanted to say 'He likes to dance,' you would say 'Le gusta bailar,' with the verb gustar agreeing with the singular noun bailar (dance). ",
+   "linkto":"",
+   "linktxt":" ",
+   "postLink":" ",
+   "preLink0":"",
+   "linkto0":"",
+   "linktxt0":"",
+   "postLink0":""},
+   "nutgraph2":{"preLink":"It's important to remember that gustar is conjugated based on the object being liked and not the subject doing the liking. This means that the verb form changes depending on whether the object is singular or plural. Additionally, the indirect object pronoun used must agree with the subject in gender and number." ,
+   "linkto":"",
+   "linktxt":"",
+   "postLink":"",
+   "preLink0":"",
+   "linkto0":"",
+   "linktxt0":"",
+   "postLink0":""},
+   "nutgraph3":{"preLink":"Another key aspect of gustar's grammar is its word order. In Spanish, the object being liked comes before the verb gustar, and the indirect object pronoun follows the verb. For example, 'Me gusta el café' translates to 'I like coffee,' with 'el café' being the object being liked, 'gusta' being the third person singular conjugation of gustar, and 'me' being the indirect object pronoun indicating who the liking is directed towards. Understanding this word order is crucial in correctly using gustar in Spanish sentences.",
+   "linkto":"",
+   "linktxt":"  ",
+   "preLink0":"",
+   "linkto0":"",
+   "postLink":"",
+   "linktx0":"",
+   "postLink0":""},
+   "nutgraph4":{"preLink":"",
+   "linkto":" ",
+   "linktxt":" ",
+   "postLink":" ",
+   "preLink0":"",
+   "linkto0":"",
+   "linktx0":"",
+   "postLink0":""},
+   "nutgraph5":{"preLink":"One of the best ways to improve your proficiency with gustar is to practice. Talkcycle's platform offers various resources for practicing with gustar, including exercises, quizzes, and conversations with native speakers. Here are some tips to help you make the most out of your practice sessions: ",
+   "linkto":"",
+   "linktxt":"  ",
+   "postLink":"",
+   "preLink0":"",
+   "linkto0":"",
+   "linktx0":"",
+   "postLink0":""},
+   "nutgraph6":{"preLink":"",
+   "linkto":"",
+   "linktxt":"",
+   "postLink":"",
+   "preLink0":"",
+   "linkto0":"","postLink0":"",
+   "linktxt0":""},
+   "nutgraph7":{"preLink":"",
+   "linkto":"","linktxt":"",
+   "postLink":"",
+   "preLink0":"",
+   "linkto0":"",
+   "postLink0":"",
+   "linktxt0":""},
+   "nutgraph8":{"preLink":" ",
+   "linkto":"",
+   "linktxt":"  ",
+   "postLink":"",
+   "preLink0":"",
+   "linkto0":"",
+   "linktx0":"",
+   "postLink0":""},
+   "nutgraph9":{"preLink":"In conclusion, mastering the art of gustar is essential if you want to become proficient in Spanish. With the right resources and practice, you can improve your skills and become more confident in your abilities. Talkcycle's platform offers various resources for practicing with gustar and other Spanish verbs. Sign up today and start enhancing your Spanish proficiency! ",
+   "linkto":"",
+   "linktxt":"",
+   "postLink":"",
+   "preLink0":"",
+   "linkto0":"",
+   "linktx0":"",
+   "postLink0":""},
+
+   
+   "Distribution":{"hooperos":"false","youtube":"false","facebook":"false","instagram":"false","twitter":"false","reddit":"false","tiktok":"false","linkedld":"false","pinterest":"false","snapshot":"false","tumblr":"false"},
+   "video":[
+   {"video":"","img":""},
+   {"video":"","img":""},
+ 
+   {"video":"","img":""},
+   {"video":"","img":""},
+    {"video":"","img":""},
+   {"video":"","img":""},
+   {"video":"","img":""},
+   {"video":"","img":""},
+   {"video":"","img":""},
+
+
+],
+   "datasets":
+   [
+       {"made":"80","attempted":"205"},
+   
+       {"made":"43","attempted":"111"},
+   
+       {"made":"28","attempted":"72"},
+   
+       {"made":"28","attempted":"70"},
+   
+       {"made":"20","attempted":"64"},
+   
+       {"made":"17","attempted":"83"},
+   
+       {"made":"10","attempted":"33"},
+   
+       {"made":"10","attempted":"26"}
+   ],
+   "labels":
+   [
+   "Jump Shot",
+   
+   "Pullup Jump Shot",
+   
+   "Driving Floating Jump Shot",
+   
+   "Driving Layup Shot",
+   
+   "Step Back j",
+   
+   "Driving Finger Roll",
+   
+   "Running Pullup Jump Shot",
+   
+   "Driving Floating Bank J"
+   
+   ],
+   "headings":[
+    "What is Gustar?",
+    "",
+    "Understanding the Grammar of Gustar",
+    "",
+    "",
+    "Practicing with Gustar",
+    "",
+    ""
+    
+    
+    ],
+  
+   "categoryLink":"/verbs",
+   "ogDescription":"Dive into Spanish practice with the verb gustar and Learn how to use the tricky yet essential verb gustar in Spanish with this comprehensive guide. Discover the grammar rules and practical examples to enhance your proficiency and confidence when speaking Spanish.",
+   "modifiedDate":"none",
+   "ogImage":"https://res.cloudinary.com/dwq5dlyvd/image/upload/v1682709506/talkcycle/spanishpracticewith/Spanish%20practice%20with%20gustar.jpg",
+   "slug":"Spanish-practice-with-the-verb-gustar",
+   "gram":["","","","","","",""],
+   "tiktok":[""],
+   "tweet":["","","","","","","",""],
+   "youtube":["","","",""],
+   "gifs":["",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   "",
+   ""
+    
+   ]}})
