@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
-
+import Heading from '../../components/unit/heading'
 
 export default function Home() {
   return (
@@ -70,10 +70,11 @@ export default function Home() {
 
       </Head>
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <Heading />
+        {/* <h1 className={styles.title}>
           Welcome to Talkcycle
         </h1>
-
+<h2>Learn Spanish the Conversational Way</h2>
         <p className={styles.description}>
           The online Spanish learning platform that helps you practice your speaking skills and improve your confidence.
         </p>
@@ -90,10 +91,14 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <h3>Flexible Schedule</h3>
-            <p>Learn at your own pace and on your own schedule.</p>
-          </div>
-        </div>
+  <h3>Learn at Your Own Pace</h3>
+  <p>Our flexible schedule allows you to learn Spanish on your own terms. </p>
+</div>
+          <div className={styles.card}>
+  <h3>Spanish Music & Videos</h3>
+  <p>Improve your listening skills and immerse yourself in the language with our curated collection of Spanish music and videos.</p>
+</div>
+        </div> */}
       </main>
 
 
