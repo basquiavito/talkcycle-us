@@ -71,6 +71,50 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Heading />
+        <div className={styles.grid}>
+        <div className={styles.card}>
+          <h3>Top-Notch Spanish Practice</h3>
+          <ul>
+            <li>Spanish sentences to practice</li>
+            <li>Spanish practice conversation</li>
+            <li>Spanish practice free</li>
+            <li>Spanish practice listening</li>
+            <li>Spanish practice reading</li>
+            <li>Spanish practice quiz</li>
+             <li>Spanish practice for beginners</li>
+          </ul>
+        </div>
+
+        <div className={styles.card}>
+          <h3>Medium-Level Spanish Practice</h3>
+          <ul>
+            <li>Spanish practice for advanced learners</li>
+            <li>Spanish exercises for beginners pdf</li>
+            <li>Practice Spanish with native speakers</li>
+            <li>Spanish practice grammar</li>
+            <li>Spanish practice gerundio</li>
+          </ul>
+        </div>
+
+        <div className={styles.card}>
+          <h3>Average-Level Spanish Practice</h3>
+          <ul>
+            <li>Spanish practice with gustar</li>
+            <li>Spanish practice with ser</li>
+            <li>Practice Spanish with you</li>
+            <li>Spanish words to practice rolling r</li>
+            <li>Spanish practice for imperfect tense</li>
+            <li>Spanish listening practice with questions</li>
+            <li>Spanish reading practice with questions</li>
+            <li>Spanish practice preterite vs imperfect</li>
+            <li>Spanish practice por vs para</li>
+            <li>Spanish practice subjunctive vs indicative</li>
+            <li>Comparisons in Spanish practice</li>
+            <li>Spanish practice future tense</li>
+            <li>Spanish practice for intermediate</li>
+          </ul>
+        </div>
+      </div>
         {/* <h1 className={styles.title}>
           Welcome to Talkcycle
         </h1>
