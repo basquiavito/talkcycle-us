@@ -7,7 +7,7 @@ import 'react-h5-audio-player/lib/styles.css';
 function audiocard(props){
     return <>
     <div id="main">
-<div>
+<div className="meta">
     <span>{`Episode ${props.episode}`}</span><span>{props.duration}</span>
 </div>
 
@@ -37,11 +37,17 @@ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
     <style jsx>
         {`
        #main {
-        padding-left: 10px;
+        padding-left: 5px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 1rem;
        }
        
         
-
+.meta {
+display: flex;
+justify-content: space-between;
+padding: 15px; 10px 0 15px;
+}
         
         `}
     </style>
