@@ -1360,7 +1360,9 @@ ul > li{
   list-style-type: none;
 }
 
-
+ul {
+  margin-bottom: 0;
+}
 .headcontainer {
    
   padding-left: 10px;
