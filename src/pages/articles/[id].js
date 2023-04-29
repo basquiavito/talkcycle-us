@@ -93,6 +93,28 @@ export async function getStaticProps({ params }) {
         <div className="gridCenter">
         <LinkToa2 
 
+li0={article.list[0]}
+ li1={article.list[1]}
+li2={article.list[2]}
+li3={article.list[3]}
+li4={article.list[4]}
+li5={article.list[5]}
+li6={article.list[6]}
+li7={article.list[7]}
+
+liB0={article.list1[0]}
+ liB1={article.list1[1]}
+liB2={article.list1[2]}
+liB3={article.list1[3]}
+liB4={article.list1[4]}
+liB5={article.list1[5]}
+liB6={article.list1[6]}
+liB7={article.list1[7]}
+ 
+
+
+
+
 gif={article.gifs[0]}  
 gif1={article.gifs[1]}  
 gif2={article.gifs[2]}
