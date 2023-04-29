@@ -7,7 +7,8 @@ import Cargo2 from '../../components/unit/cargo2'
  import redirect from 'nextjs-redirect'
 import AudioCard from '../../components/unit/audioCard'
 import Cardwithmusic from '../../components/unit/cardWithMusic'
-
+import LazyLoad from 'react-lazy-load';
+import CardWatch from '../../components/unit/cardWatch'
 export default function Home({ audios }) {
   
   
@@ -114,7 +115,7 @@ export default function Home({ audios }) {
  
 
       <main>
-      <SectionTitle title="Pronuntiation"/>
+      <SectionTitle title="Sounds"/>
     {audios.map((audio) => (
       <div id="main" key={audio._id}>
 
@@ -175,7 +176,7 @@ link={audio.link}
 
 
 
-<SectionTitle title="moods"/>
+<SectionTitle title="Watch"/>
 {audios.map((audio) => (
       <div id="main" key={audio._id}>
 
@@ -184,14 +185,11 @@ link={audio.link}
 
  
         <div className='containerHold'>
+  
    
-   
-            <AudioCard 
-          episode={audio.episode} 
-         duration={audio.duration} 
-         image={audio.image}
-            audio={audio.mp3}
-            
+            <CardWatch 
+         youtube={audio.youtube}
+            caption={audio.caption}
             
             />
         
