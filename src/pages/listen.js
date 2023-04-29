@@ -203,13 +203,16 @@ export default function Home({ audios }) {
 
     <style jsx>
       {`
-     #main {
+   main {
  max-width: 64rem;
  display: flex;
  flex-flow: row wrap;
  justify-content: center;
  padding: 1.5rem;
- margin: auto;}
+ margin: auto;
+
+
+}
 
       `}
     </style>

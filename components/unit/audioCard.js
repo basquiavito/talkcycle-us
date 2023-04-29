@@ -36,23 +36,11 @@ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
     
     <style jsx>
         {`
+       #main {
+        padding-left: 10px;
+       }
        
         
-        #main {
-           display: flex
-           flex-flow: column wrap;
-           justify-content: center;
-            padding-top: 1rem;
-            margin-top: 1rem;
-            margin: 10px;
-     
-
-        }
-
-        .imageContainer {
-            padding-left:2px;
-
-        }
 
         
         `}
