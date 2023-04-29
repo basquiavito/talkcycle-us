@@ -8,9 +8,6 @@ function Header( ) {
    <>
         
 <div className="subnav">
-<Link 
-href="/blogs" legacyBehavior><a  className="chartList"><span className="details">blogs</span> </a> 
-</Link>
 
 <Link 
 href="/articles" legacyBehavior><a  className="chartList"><span className="details">articles</span> </a> 
