@@ -1,5 +1,5 @@
 import Image from "next/image"
- 
+ import SectionTitle from "./sectionTitle";
 import ReactAudioPlayer from 'react-audio-player';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
@@ -7,6 +7,7 @@ import 'react-h5-audio-player/lib/styles.css';
 function audiocard(props){
     return <>
     <div id="main">
+ 
 <div className="meta">
     <strong><span>{`${props.episode}`}</span></strong>  <em><span>{props.duration}</span></em> </div>
 

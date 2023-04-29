@@ -92,12 +92,20 @@ export default function Home({ articles  }) {
               image={`${article.image}`} 
               date={article.date}
            dekk={article.dekk}
-  
- 
- 
-        />
-        </Link>
-      </div></div></div>
+           />
+
+ </Link>
+      </div>
+      
+      
+      
+      
+
+      
+      
+      
+      
+      </div></div>
     ))}
   </main>
     

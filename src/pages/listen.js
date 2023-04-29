@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { connectToDatabase } from '../../utils/mongoDb'
  import Head from 'next/head'
- 
+ import SectionTitle from '../../components/unit/sectionTitle'
 import Cargo2 from '../../components/unit/cargo2'
  import Script from 'next/script'
  import redirect from 'nextjs-redirect'
@@ -114,14 +114,17 @@ export default function Home({ audios }) {
  
 
       <main>
-
+      <SectionTitle title="Pronuntiation"/>
     {audios.map((audio) => (
       <div id="main" key={audio._id}>
+
+        
 <div className='containerFluid'>
+
+ 
         <div className='containerHold'>
    
-       
-
+   
             <AudioCard 
           episode={audio.episode} 
          duration={audio.duration} 
@@ -131,12 +134,57 @@ export default function Home({ audios }) {
             
             />
         
-  
+   
+ 
  
  
        
       </div></div></div>
     ))}
+
+
+
+<SectionTitle title="moods"/>
+{audios.map((audio) => (
+      <div id="main" key={audio._id}>
+
+        
+<div className='containerFluid'>
+
+ 
+        <div className='containerHold'>
+   
+   
+            <AudioCard 
+          episode={audio.episode} 
+         duration={audio.duration} 
+         image={audio.image}
+            audio={audio.mp3}
+            
+            
+            />
+        
+   
+ 
+ 
+ 
+       
+      </div></div></div>
+    ))}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </main>
     
 
