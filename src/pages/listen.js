@@ -187,7 +187,7 @@ export default function Home({ audios }) {
           episode={audio.episode} 
          duration={audio.duration} 
          image={audio.image}
-            
+            audio={audio.mp3}
             
             
             />
@@ -216,8 +216,6 @@ export default function Home({ audios }) {
    
  
     
-    
-      }
      
       `}
     </style>

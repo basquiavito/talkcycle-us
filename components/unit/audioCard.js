@@ -6,7 +6,7 @@ import 'react-h5-audio-player/lib/styles.css';
 
 function audiocard(props){
     return <>
-    <div>
+    <div id="main">
 <div>
     <span>{`Episode ${props.episode}`}</span><span>{props.duration}</span>
 </div>
@@ -23,7 +23,7 @@ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
 
 <div className="audioContainer">
  <AudioPlayer
-  src="https://res.cloudinary.com/dsidx1efo/video/upload/v1682739033/talkcycle/audio/audio%20sounds/adjtective_udnuas.wav"
+  src={props.audio}
   autoPlay="false"
   controls
 />  
@@ -42,7 +42,12 @@ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
             max-width: 300px;
         }        
         
-        
+        #main {
+           display: flex
+           flex-flow: row wrap;
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
         `}
     </style>
     </>
