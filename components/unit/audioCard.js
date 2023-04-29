@@ -16,7 +16,7 @@ function audiocard(props){
 width="300"
 height="300"
 alt="sonido"
-src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
+src={props.image}
 
 
 />
