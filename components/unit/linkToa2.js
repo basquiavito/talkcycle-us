@@ -255,19 +255,7 @@ function linkto(props){
 
 </p>
 
-{ props.li0 ? (
-<div className="listing">
-  <ul>
-    
-    <li>{props.li0}</li>
-    <li>{props.li1}</li>
-    <li>{props.li2}</li>
-    <li>{props.li3}</li>
-    <li>{props.li4}</li>
-    <li>{props.li5}</li>
-    <li>{props.li6}</li>
-    <li>{props.li7}</li></ul>
- </div> ) : null } 
+
 
 
 {props.gram1 ? (
@@ -353,20 +341,7 @@ function linkto(props){
 
 
 </p>
-
-{ props.list2 ? (
-<div className="listing">
-<ul className="listado">
-    
-    <li>{props.liB0}</li>
-    <li>{props.liB1}</li>
-    <li>{props.liB2}</li>
-    <li>{props.liB3}</li>
-    <li>{props.liB4}</li>
-    <li>{props.liB5}</li>
-    <li>{props.liB6}</li>
-    <li>{props.liB7}</li></ul>
- </div> ) : null } 
+ 
 
 
 {props.gram2 ? (
@@ -442,19 +417,7 @@ function linkto(props){
 
 </p>
 
-{ props.list3? (
-<div className="listing">
-<ul>
-    
-    <li>{props.Cli0}</li>
-    <li>{props.Cli1}</li>
-    <li>{props.Cli2}</li>
-    <li>{props.Cli3}</li>
-    <li>{props.Cli4}</li>
-    <li>{props.Cli5}</li>
-    <li>{props.Cli6}</li>
-    <li>{props.Cli7}</li></ul>
- </div> ) : null } 
+ 
 
 
 {props.gram3 ? (
@@ -507,20 +470,7 @@ function linkto(props){
 
 {/* Media 1 end */}
 
-
-{ props.heading4 ? (
-<div className="headcontainer">
-<ul>
-    
-    <li>{props.Dli0}</li>
-    <li>{props.Dli1}</li>
-    <li>{props.Dli2}</li>
-    <li>{props.Dli3}</li>
-    <li>{props.Dli4}</li>
-    <li>{props.Dli5}</li>
-    <li>{props.Dli6}</li>
-    <li>{props.Dli7}</li></ul>
- </div> ) : null } 
+ 
 <p>
 
 <span>{props.preLink4}</span>
@@ -625,22 +575,22 @@ function linkto(props){
 
 </p>
 
+ 
 
-{ props.list5 ? (
+{ props.li0 ? (
 <div className="listing">
-<ul>
+  <ul>
     
-    <li>{props.Eli0}</li>
-    <li>{props.Eli1}</li>
-    <li>{props.Eli2}</li>
-    <li>{props.Eli3}</li>
-    <li>{props.Eli4}</li>
-    <li>{props.Eli5}</li>
-    <li>{props.Eli6}</li>
-    <li>{props.Eli7}</li></ul>
+    <li>{props.li0}</li>
+    <li>{props.li1}</li>
+    <li>{props.li2}</li>
+    <li>{props.li3}</li>
+    <li>{props.li4}</li>
+    <li>{props.li5}</li>
+    <li>{props.li6}</li>
+    <li>{props.li7}</li></ul>
  </div> ) : null } 
-
-
+ 
 {props.gram5 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
     <InstagramEmbed url={props.gram5} width={320} />
@@ -697,22 +647,7 @@ function linkto(props){
  
    
 
-
  
- 
-{ props.heading6 ? (
-<div className="headcontainer">
-<ul>
-    
-    <li>{props.Fli0}</li>
-    <li>{props.Fli1}</li>
-    <li>{props.Fli2}</li>
-    <li>{props.Fli3}</li>
-    <li>{props.Fli4}</li>
-    <li>{props.Fli5}</li>
-    <li>{props.Fli6}</li>
-    <li>{props.Fli7}</li></ul>
- </div> ) : null } 
 <p>
 
 <span>{props.preLink6}</span>
@@ -732,11 +667,7 @@ function linkto(props){
 <span>{props.postLink6b}</span>
 
 </p>
- 
-{ props.list6 ? (
-<div className="listing">
-  <h2>{props.list6}</h2>
- </div> ) : null } 
+
 
 
 {props.gram6 ? (
@@ -789,16 +720,7 @@ function linkto(props){
 
 { props.heading7 ? (
 <div className="headcontainer">
-<ul>
-    
-    <li>{props.Gli0}</li>
-    <li>{props.Gli1}</li>
-    <li>{props.Gli2}</li>
-    <li>{props.Gli3}</li>
-    <li>{props.Gli4}</li>
-    <li>{props.Gli5}</li>
-    <li>{props.Gli6}</li>
-    <li>{props.Gli7}</li></ul>
+  <h2>{props.heading7}</h2>
  </div> ) : null } 
 <p>
 
@@ -993,19 +915,7 @@ function linkto(props){
 
 </p>
 
-{ props.list9 ? (
-<div className="listing">
-<ul>
-    
-    <li>{props.Hli0}</li>
-    <li>{props.Hli1}</li>
-    <li>{props.Hli2}</li>
-    <li>{props.Hli3}</li>
-    <li>{props.Hli4}</li>
-    <li>{props.Hli5}</li>
-    <li>{props.Hli6}</li>
-    <li>{props.Hli7}</li></ul>
- </div> ) : null } 
+ 
 
 
 

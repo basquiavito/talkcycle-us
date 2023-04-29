@@ -102,15 +102,7 @@ li5={article.list[5]}
 li6={article.list[6]}
 li7={article.list[7]}
 
-liB0={article.list1[0]}
- liB1={article.list1[1]}
-liB2={article.list1[2]}
-liB3={article.list1[3]}
-liB4={article.list1[4]}
-liB5={article.list1[5]}
-liB6={article.list1[6]}
-liB7={article.list1[7]}
- 
+
 
 
 

@@ -79,7 +79,7 @@ db.articles.updateOne(
    "linkto0":"",
    "linktx0":"",
    "postLink0":""},
-   "nutgraph6":{"preLink":"",
+   "nutgraph6":{"preLink":"In conclusion, mastering the art of gustar is essential if you want to become proficient in Spanish. With the right resources and practice, you can improve your skills and become more confident in your abilities. Talkcycle's platform offers various resources for practicing with gustar and other Spanish verbs. Sign up today and start enhancing your Spanish proficiency! ",
    "linkto":"",
    "linktxt":"",
    "postLink":"",
@@ -101,7 +101,7 @@ db.articles.updateOne(
    "linkto0":"",
    "linktx0":"",
    "postLink0":""},
-   "nutgraph9":{"preLink":"In conclusion, mastering the art of gustar is essential if you want to become proficient in Spanish. With the right resources and practice, you can improve your skills and become more confident in your abilities. Talkcycle's platform offers various resources for practicing with gustar and other Spanish verbs. Sign up today and start enhancing your Spanish proficiency! ",
+   "nutgraph9":{"preLink":"",
    "linkto":"",
    "linktxt":"",
    "postLink":"",
@@ -126,43 +126,7 @@ db.articles.updateOne(
 
 
 ],
-   "datasets":
-   [
-       {"made":"80","attempted":"205"},
-   
-       {"made":"43","attempted":"111"},
-   
-       {"made":"28","attempted":"72"},
-   
-       {"made":"28","attempted":"70"},
-   
-       {"made":"20","attempted":"64"},
-   
-       {"made":"17","attempted":"83"},
-   
-       {"made":"10","attempted":"33"},
-   
-       {"made":"10","attempted":"26"}
-   ],
-   "labels":
-   [
-   "Jump Shot",
-   
-   "Pullup Jump Shot",
-   
-   "Driving Floating Jump Shot",
-   
-   "Driving Layup Shot",
-   
-   "Step Back j",
-   
-   "Driving Finger Roll",
-   
-   "Running Pullup Jump Shot",
-   
-   "Driving Floating Bank J"
-   
-   ],
+
    "headings":[
     "What is Gustar?",
     "",
@@ -175,6 +139,18 @@ db.articles.updateOne(
     
     
     ],
+
+
+    "list1":[
+        
+        "1. Start with basic exercises: Begin with exercises that focus on basic usage of gustar, such as identifying the correct indirect object pronoun to use.",
+        "2. Move on to more complex exercises: As you become more comfortable with the basics, move on to more complex exercises that focus on different tenses and structures.",
+        "3. Practice with native speakers: Speaking with native speakers is one of the best ways to improve your skills. Talkcycle's platform connects you with native speakers who can provide valuable feedback and guidance.",
+        "4. Watch Spanish media: Watching Spanish TV shows, movies, and other media can help you get used to the unique grammar of gustar and other Spanish verbs.",
+        "",
+        "",
+        "",
+        ""],
   
    "categoryLink":"/verbs",
    "ogDescription":"Dive into Spanish practice with the verb gustar and Learn how to use the tricky yet essential verb gustar in Spanish with this comprehensive guide. Discover the grammar rules and practical examples to enhance your proficiency and confidence when speaking Spanish.",
