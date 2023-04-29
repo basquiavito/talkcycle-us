@@ -8,8 +8,7 @@ function audiocard(props){
     return <>
     <div id="main">
 <div className="meta">
-    <span>{`Episode ${props.episode}`}</span><span>{props.duration}</span>
-</div>
+    <strong><span>{`${props.episode}`}</span></strong>  <em><span>{props.duration}</span></em> </div>
 
 <div className="imageContainer">
 <Image  

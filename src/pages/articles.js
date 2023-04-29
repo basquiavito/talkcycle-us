@@ -111,14 +111,17 @@ export default function Home({ articles  }) {
  margin: auto;
     
               display: flex;
-       flex-flow: column wrap
+       flex-flow: row wrap
       
       }
    
- 
-    
-    
-      }
+      @media (max-width: 400px){
+        main {
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+      
+      }}
      
       `}
     </style>

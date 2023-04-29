@@ -342,7 +342,19 @@ function linkto(props){
 
 </p>
  
-
+{ props.li0 ? (
+<div className="listing">
+  <ul>
+    
+    <li>{props.li0}</li>
+    <li>{props.li1}</li>
+    <li>{props.li2}</li>
+    <li>{props.li3}</li>
+    <li>{props.li4}</li>
+    <li>{props.li5}</li>
+    <li>{props.li6}</li>
+    <li>{props.li7}</li></ul>
+ </div> ) : null } 
 
 {props.gram2 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -390,11 +402,11 @@ function linkto(props){
 {/* Media 1 end */}
 
 
-
+ 
 { props.heading3 ? (
 <div className="headcontainer">
   <h2>{props.heading3}</h2>
- </div> ) : null }  
+ </div> ) : null }    
 <p>
 
 <span>{props.preLink3}</span>
@@ -494,11 +506,11 @@ function linkto(props){
 {/* Media 1 end */}
 </p>
  
-
+{/* 
 { props.list4 ? (
 <div className="listing">
   <h2>{props.list4}</h2>
- </div> ) : null } 
+ </div> ) : null }  */}
 
 {props.gram4 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -577,19 +589,7 @@ function linkto(props){
 
  
 
-{ props.li0 ? (
-<div className="listing">
-  <ul>
-    
-    <li>{props.li0}</li>
-    <li>{props.li1}</li>
-    <li>{props.li2}</li>
-    <li>{props.li3}</li>
-    <li>{props.li4}</li>
-    <li>{props.li5}</li>
-    <li>{props.li6}</li>
-    <li>{props.li7}</li></ul>
- </div> ) : null } 
+
  
 {props.gram5 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -1149,7 +1149,7 @@ function linkto(props){
       font-size: 18px;
       font-weight: 400;
       overflow-wrap: normal;
-      padding: 12px;
+      padding: 2px;
       max-width: 1600px;
       color: rgb(33, 33, 33);
   

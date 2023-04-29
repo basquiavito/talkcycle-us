@@ -326,34 +326,10 @@ postLink9b={article.nutgraph9.postLink0}
  
 
 
-          label1={article.labels[0]}
-          label2={article.labels[1]}
-          label3={article.labels[2]}
-          label4={article.labels[3]}
-          label5={article.labels[4]}
-          label6={article.labels[5]}
-          label7={article.labels[6]}
-          label8={article.labels[7]}
-          dataset1={article.datasets[0].made}
-          dataset2={article.datasets[1].made}
-          dataset3={article.datasets[2].made}
-          dataset4={article.datasets[3].made}
-          dataset5={article.datasets[4].made}
-          dataset6={article.datasets[5].made}
-          dataset7={article.datasets[6].made}
-          dataset8={article.datasets[7].made}
+      
           
          
-
-          dataset1b={article.datasets[0].attempted}
-          dataset2b={article.datasets[1].attempted}
-          dataset3b={article.datasets[2].attempted}
-          dataset4b={article.datasets[3].attempted}
-          dataset5b={article.datasets[4].attempted}
-          dataset6b={article.datasets[5].attempted}
-          dataset7b={article.datasets[6].attempted}
-          dataset8b={article.datasets[7].attempted}
-         outside={article.outside}
+  
  player={article.player}
   
  inStreetClothes={article.inStreetClothes}

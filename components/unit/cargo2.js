@@ -11,7 +11,7 @@ export default function card(props){
         <Image
           src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
           alt={props.alt}
-          width={320}
+          width={250}
           height={250}
     
       
@@ -25,7 +25,7 @@ export default function card(props){
 
 
    
- <div className="authorContainer"><span className="authorContent"> {props.author}</span></div>  
+ <div className="authorContainer"><span className="authorContent"> By {props.author}</span></div>  
 
  <div className="authorContainer"><span className="authorContent"> {props.year}</span></div> <br/>
  <time className="timeContainer"><span className="timeContent"><span > {props.date}</span></span></time> 
@@ -47,6 +47,16 @@ export default function card(props){
 text-align: center;
 margin-bottom: 1rem;
   }
+
+
+  @media (max-width: 400px){
+    .cont {
+padding: 0;
+margin:
+
+    }}
+
+
   .headerContainer {
  max-width: 340px;
     display: block;
