@@ -72,6 +72,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Heading />
+        
         <div className={styles.grid}>
         <div className={styles.card}>
           <h3>Fundamental Spanish Classes</h3>
@@ -116,34 +117,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
-        {/* <h1 className={styles.title}>
-          Welcome to Talkcycle
-        </h1>
-<h2>Learn Spanish the Conversational Way</h2>
-        <p className={styles.description}>
-          The online Spanish learning platform that helps you practice your speaking skills and improve your confidence.
-        </p>
 
-        <div className={styles.grid}>
-          <div className={styles.card}>
-            <h3>Recorded Classes with Native Speakers</h3>
-            <p>Practice speaking with experienced professionals at any time.</p>
-          </div>
-
-          <div className={styles.card}>
-            <h3>Personalized Feedback and Guidance</h3>
-            <p>Get targeted advice on how to improve your language skills.</p>
-          </div>
-
-          <div className={styles.card}>
-  <h3>Learn at Your Own Pace</h3>
-  <p>Our flexible schedule allows you to learn Spanish on your own terms. </p>
-</div>
-          <div className={styles.card}>
-  <h3>Spanish Music & Videos</h3>
-  <p>Improve your listening skills and immerse yourself in the language with our curated collection of Spanish music and videos.</p>
-</div>
-        </div> */}
       </main>
 
 

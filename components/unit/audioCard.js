@@ -20,7 +20,7 @@ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
 
 
 />
-
+</div>
 <div className="audioContainer">
  <AudioPlayer
   src={props.audio}
@@ -29,25 +29,32 @@ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
 />  
 </div>
 
-</div>
+
 
     </div>
     
     
     <style jsx>
         {`
-        .audioContainer{
-            display: flex;
-            justify-content: center;
-            max-width: 300px;
-        }        
+       
         
         #main {
            display: flex
-           flex-flow: row wrap;
+           flex-flow: column wrap;
+           justify-content: center;
             padding-top: 1rem;
             margin-top: 1rem;
+            margin: 10px;
+     
+
         }
+
+        .imageContainer {
+            padding-left:2px;
+
+        }
+
+        
         `}
     </style>
     </>
