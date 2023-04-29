@@ -24,7 +24,7 @@ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
 <div className="audioContainer">
  <AudioPlayer
   src={props.audio}
-  autoPlay="false"
+ 
   controls
 />  
 </div>
