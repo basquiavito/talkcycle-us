@@ -5,49 +5,49 @@ import { connectToDatabase } from '../../utils/mongoDb'
 import Cargo2 from '../../components/unit/cargo2'
  import Script from 'next/script'
  import redirect from 'nextjs-redirect'
+import AudioCard from '../../components/unit/audioCard'
 
 
-
-export default function Home({ articles  }) {
+export default function Home({ audios }) {
   
   
     return <>
  <Head>
  
  <meta charSet="utf-8"/>
- <title>Hooperos:  | Articles</title>
+ <title>Talkcycle  | Articles</title>
  <meta name="viewport" content="width=device-width, initial-scale=1"/>
- <meta name="Description" content="Hooperos.com — is home to the biggest source of NBA basketball moves and countermoves collection designed to enhance user performace and provide insight into the world of basketball scoring.  "/>
- <meta property="og:url" content="https://www.hooperos.com/articles"/>
- <meta property="og:type" content="article"/>
- <meta property="og:title" content='Hooperos: Basketball Scoring, Moves, Countermoves, Urban Culture | Hooperos'/>
- <meta property="og:description" content='Hooperos.com — Articles for you. Read, Entertain and improve your spanish practice performance  '/>
- <meta property="og:image" content=' '></meta>
+ <meta name="Description" content="Talkcycle.net — Listening is an essential to get good results during spanish practice. Dive into the spanish pronunciation topics and improve today  "/>
+ <meta property="og:url" content="https://www.talkcycle.net/listen"/>
+ <meta property="og:type" content="talkcycle"/>
+ <meta property="og:title" content='Talkcycle: Listen , practice , and speak Spanish| Talkcycle'/>
+ <meta property="og:description" content='Talkcycle.net — Listening is an essential to get good results during spanish practice. Dive into the spanish pronunciation topics and improve today '/>
+ <meta property="og:image" content='https://res.cloudinary.com/dwq5dlyvd/image/upload/v1682182966/assets/favicon.png'></meta>
  
  
  
  
  
- <link rel="canonical" href='https://www.hooperos.com/articles' content="index,follow"/>
+ <link rel="canonical" href='https://www.talkcycle.net/listen' content="index,follow"/>
  
  
  
  
  <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
   <meta http-equiv="content-language" content="en"></meta>
- <meta name="copyright" content="Copyright (c) Hooperos 2023"></meta>
- <meta name="author" content="Hooperos"></meta>
+ <meta name="copyright" content="Copyright (c) Talkcycle 2023"></meta>
+ <meta name="author" content="Talkcycle"></meta>
  <meta name="content-type" content="homepage"></meta>
- <link rel="icon" type="image/png" href="/https://res.cloudinary.com/dwq5dlyvd/image/upload/v1682182966/assets/favicon.png"/>
+ <link rel="icon" type="image/png" href=""/>
  
  <meta name="twitter:card" content="summary_large_image"></meta>
- <meta name="twitter:creator" content="@hooperos_us"></meta>
+ <meta name="twitter:creator" content="Talkcycle"></meta>
  <meta name="twitter:title" content='Home'/> 
- <meta name="twitter:description" content='Hooperos.com — is home to the biggest source of NBA basketball Scoring, moves and countermoves collection designed to enhance user performace and provide insight into the world of basketball scoring.   '></meta>
- <meta name="article:author" content='Hooperos'></meta>
- <meta property="twitter:image" content='https://res.cloudinary.com/dwq5dlyvd/image/upload/v1682182966/assets/favicon.png'/>
- <meta property="twitter:site" content="@hooperos_us"></meta>
- <meta name="twitter:url" content="https://www.hooperos.com/articles">
+ <meta name="twitter:description" content='Talkcycle.net — Listening is an essential to get good results during spanish practice. Dive into the spanish pronunciation topics and improve today    '></meta>
+ <meta name="article:author" content='Talkcycle'></meta>
+ <meta property="twitter:image" content=' '/>
+ <meta property="twitter:site" content=""></meta>
+ <meta name="twitter:url" content="https://www.talkcycle.net/listen">
  
  
  
@@ -57,10 +57,10 @@ export default function Home({ articles  }) {
  <meta name="robots" content="index, follow, max-image-preview:large"/>
   <meta name="googlebot" content="all" />
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"></meta>
-  <meta name="Description" content="Hooperos "/>
-  <meta name="google-site-verification" content="3vPt_83gjgDlwNpSwqVFOgiUWnIP-sBphFQVu_wS6q0"></meta>
+  <meta name="Description" content="Talkcycle "/>
+  <meta name="google-site-verification" content=""></meta>
  
-  <meta property="og:url" content="https:/www.hooperos.com/"/>
+  <meta property="og:url" content="https:/www.talkcycle.net/"/>
  <meta property="og:locale" content="en_US"/>
  
  <meta property="fb:app_id" content="908303963313109"/>
@@ -176,25 +176,26 @@ export default function Home({ articles  }) {
 
       <main>
 
-    {articles.map((article) => (
-      <div id="main" key={article._id}>
+    {audios.map((audio) => (
+      <div id="main" key={audio._id}>
 <div className='containerFluid'>
         <div className='containerHold'>
-        <Link  href={`/articles/${article.slug}`}>
+        <Link  href={`/audios/${audio.slug}`}>
        
 
-            <Cargo2
-            alt={article.title}
-            player={article.player}
-              title={article.title}
-              author={article.author}
-              image={`https://res.cloudinary.com/dwq5dlyvd/image/upload/c_scale,q_70,w_512/${article.image}`} 
-              date={article.date}
-           dekk={article.dekk}
+            <AudioCard 
+          episode={audio.episode} 
+         duration={audio.duration} 
+         image={audio.image}
+            
+            
+            
+            />
+        
   
  
  
-        />
+        
         </Link>
       </div></div></div>
     ))}
@@ -230,8 +231,8 @@ export default function Home({ articles  }) {
 
 export async function getStaticProps() {
     const { db } = await connectToDatabase();
-    const articles = await db
-      .collection("articles")
+    const audios = await db
+      .collection("audios")
       .find({ready: true})
       .sort({   })
       .limit(25)
@@ -241,7 +242,7 @@ export async function getStaticProps() {
       
     return {
       props: {
-     articles: JSON.parse(JSON.stringify(articles)),
+     audios: JSON.parse(JSON.stringify(audios)),
       },revalidate:60
     };
   }
