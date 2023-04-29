@@ -180,7 +180,7 @@ export default function Home({ audios }) {
       <div id="main" key={audio._id}>
 <div className='containerFluid'>
         <div className='containerHold'>
-        <Link  href={`/audios/${audio.slug}`}>
+   
        
 
             <AudioCard 
@@ -195,8 +195,7 @@ export default function Home({ audios }) {
   
  
  
-        
-        </Link>
+       
       </div></div></div>
     ))}
   </main>
@@ -233,7 +232,7 @@ export async function getStaticProps() {
     const { db } = await connectToDatabase();
     const audios = await db
       .collection("audios")
-      .find({ready: true})
+      .find({})
       .sort({   })
       .limit(25)
       .toArray();

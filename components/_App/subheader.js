@@ -13,6 +13,10 @@ function Header( ) {
 href="/articles" legacyBehavior><a  className="chartList"><span className="details">articles</span> </a> 
 </Link>
 
+<Link 
+href="/listen" legacyBehavior><a  className="chartList"><span className="details">listen</span> </a> 
+</Link>
+
   
 {/* <Link 
 href="/" legacyBehavior><a  className="chartList"><span className="details">Hoopnotes</span> </a> 
