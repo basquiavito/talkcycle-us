@@ -22,7 +22,7 @@ export default function Home({ audios }) {
  <meta property="og:type" content="talkcycle"/>
  <meta property="og:title" content='Talkcycle: Listen , practice , and speak Spanish| Talkcycle'/>
  <meta property="og:description" content='Talkcycle.net — Listening is an essential to get good results during spanish practice. Dive into the spanish pronunciation topics and improve today '/>
- <meta property="og:image" content='https://res.cloudinary.com/dwq5dlyvd/image/upload/v1682182966/assets/favicon.png'></meta>
+ <meta property="og:image" content=' '></meta>
  
  
  
@@ -63,10 +63,10 @@ export default function Home({ audios }) {
   <meta property="og:url" content="https:/www.talkcycle.net/"/>
  <meta property="og:locale" content="en_US"/>
  
- <meta property="fb:app_id" content="908303963313109"/>
- <meta property="og:site_name" content="Hooperos"/>
+ <meta property="fb:app_id" content=""/>
+ <meta property="og:site_name" content="Talkcycle"/>
  
- <meta name="keywords" content='basketball, scoring, NBA,'></meta>
+ <meta name="keywords" content='online spanish course for adults, online spanish beginners course, online spanish conversation classes, online spanish lessons easy, best online spanish course for high school students, online spanish courses to become fluent, online spanish classes zoom '></meta>
  
  {/* GA starts */}
  
@@ -94,81 +94,20 @@ export default function Home({ audios }) {
  gtag('config', 'G-RFNG3P5QHF');
  `}
  </Script>
- {/* End GTA */}
- 
- 
-     {/* Start Branch.io*/}
-  <Script
-  strategy='afterInteractive'
-  id="branch.io"
-  dangerouslySetInnerHTML={{
-  __html: ` 
-  
-  (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent logEvent disableTracking qrCode".split(" "), 0);
-  
-  branch.init('key_live_jDlno8AO6ODgeCdtUdDrJeoorvc0V95s');
-  `
-  }}
-  />
-   {/* Ends Branch io */}
-   <Script
-  strategy='afterInteractive'
-  id="hotjar"
-  dangerouslySetInnerHTML={{
-  __html: `   (function(h,o,t,j,a,r){
-   h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-   h._hjSettings={hjid:3431852,hjsv:6};
-   a=o.getElementsByTagName('head')[0];
-   r=o.createElement('script');r.async=1;
-   r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-   a.appendChild(r);
- })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}} />
  
  
  
-      {/* quancast start */}
-  <Script
-  strategy='afterInteractive'
-  id="quantcast"
-  dangerouslySetInnerHTML={{
-  __html: ` 
-  window._qevents = window._qevents || [];
-  (function() {
-   var elem = document.createElement('script');
-   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-   elem.async = true;
-   elem.type = "text/javascript";
-   var scpt = document.getElementsByTagName('script')[0];
-   scpt.parentNode.insertBefore(elem, scpt);
-   })();
+ 
+ 
+ 
+ 
    
-   window._qevents.push({
-   qacct:"p-XqxS8v6XgkVhW",
-   uid:"ino@hooperos.com"
-   });
-  `
-  }}
-  />
-  
-  <noscript>
- <div className="quantcastThing">
- <img src="//pixel.quantserve.com/pixel/p-XqxS8v6XgkVhW.gif" border="0" height="1" width="1" alt="Quantcast"/>
- </div>
- </noscript>
+ 
+ 
+ 
+ 
+ 
    
-    {/* quancast end*/}
- 
-    <Script
-  strategy='afterInteractive'
-  id="tiktok"
-  dangerouslySetInnerHTML={{
-  __html: ` !function (w, d, t) {
-   w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
- )ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
- 
-   ttq.load('CGHPP1JC77U1JI9QH600');
-   ttq.page();
- }(window, document, 'ttq');`}} />
  
  
    </Head>
