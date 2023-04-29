@@ -9,7 +9,7 @@ function image(props){
 <div className="heroImageLink">
  
   <Image
- src={`https://res.cloudinary.com/dwq5dlyvd/image/upload/${props.image}`}
+ src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
  alt={`${props.title}`}
  width="310"
  height="320"

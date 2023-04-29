@@ -15,7 +15,7 @@ export default function Home({ audios }) {
  <Head>
  
  <meta charSet="utf-8"/>
- <title>Talkcycle  | Articles</title>
+ <title>Talkcycle  | Listen </title>
  <meta name="viewport" content="width=device-width, initial-scale=1"/>
  <meta name="Description" content="Talkcycle.net — Listening is an essential to get good results during spanish practice. Dive into the spanish pronunciation topics and improve today  "/>
  <meta property="og:url" content="https://www.talkcycle.net/listen"/>
@@ -37,12 +37,12 @@ export default function Home({ audios }) {
   <meta http-equiv="content-language" content="en"></meta>
  <meta name="copyright" content="Copyright (c) Talkcycle 2023"></meta>
  <meta name="author" content="Talkcycle"></meta>
- <meta name="content-type" content="homepage"></meta>
+ <meta name="content-type" content="listen"></meta>
  <link rel="icon" type="image/png" href=""/>
  
  <meta name="twitter:card" content="summary_large_image"></meta>
  <meta name="twitter:creator" content="Talkcycle"></meta>
- <meta name="twitter:title" content='Home'/> 
+ <meta name="twitter:title" content='listen'/> 
  <meta name="twitter:description" content='Talkcycle.net — Listening is an essential to get good results during spanish practice. Dive into the spanish pronunciation topics and improve today    '></meta>
  <meta name="article:author" content='Talkcycle'></meta>
  <meta property="twitter:image" content=' '/>
@@ -57,7 +57,7 @@ export default function Home({ audios }) {
  <meta name="robots" content="index, follow, max-image-preview:large"/>
   <meta name="googlebot" content="all" />
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"></meta>
-  <meta name="Description" content="Talkcycle "/>
+  <meta name="Description" content="Talkcycle Talkcycle.net — Listening is an essential to get good results during spanish practice. Dive into the spanish pronunciation topics and improve today   "/>
   <meta name="google-site-verification" content=""></meta>
  
   <meta property="og:url" content="https:/www.talkcycle.net/"/>

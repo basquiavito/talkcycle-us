@@ -9,7 +9,7 @@ export default function card(props){
     <Grid.Container     >
       <Grid  >
         <Image
-          src={props.image}
+          src={`https://res.cloudinary.com/dsidx1efo/image/upload/${props.image}`}
           alt={props.alt}
           width={320}
           height={250}

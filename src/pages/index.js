@@ -13,7 +13,7 @@ export default function Home() {
     <Head>
  
  <meta charSet="utf-8"/>
- <title>Talkcycle</title>
+ <title>Talkcycle | Homepage</title>
  <meta name="Description" content="Talkcycle.net — Take your Spanish skills to the next level with Talkcycle's online Spanish course for adults. Our self-paced beginner's course includes easy online Spanish lessons and conversation classes through Zoom, designed to help you become fluent. Submit your practice conversations and receive expert feedback from our instructors, plus one live session a week for assistance and support. Choose the best online Spanish course  and start speaking Spanish like a pro with Talkcycle today!  "/>
  <meta property="og:url" content="https://talkcycle.net/"/>
  <meta property="og:type" content="homepage"/>

@@ -60,7 +60,7 @@ export default function Home({ articles  }) {
   <meta name="Description" content="Talkcycle "/>
   <meta name="google-site-verification" content=""></meta>
  
-  <meta property="og:url" content="https://www.talkcycle.net/"/>
+  <meta property="og:url" content="https://www.talkcycle.net/articles"/>
  <meta property="og:locale" content="en_US"/>
  
  <meta property="fb:app_id" content=""/>
