@@ -6,7 +6,7 @@ import Cargo2 from '../../components/unit/cargo2'
  import Script from 'next/script'
  import redirect from 'nextjs-redirect'
 import AudioCard from '../../components/unit/audioCard'
-
+import Cardwithmusic from '../../components/unit/cardWithMusic'
 
 export default function Home({ audios }) {
   
@@ -143,6 +143,37 @@ export default function Home({ audios }) {
     ))}
 
 
+<SectionTitle title="Music"/>
+    {audios.map((audio) => (
+      <div id="music" key={audio._id}>
+
+        
+<div className='containerFluid'>
+
+ 
+        <div className='containerHold'>
+   
+   
+            <Cardwithmusic
+      
+         song={audio.song}
+         artist={audio.artist}
+         excerpt={audio.excerpt}
+link={audio.link}
+        //  artist={audio.music[0].artist}
+        //     link={audio.music[0].link}
+        //     excerpt={audio.music[0].excerpt}
+            />
+        
+   
+ 
+ 
+ 
+       
+      </div></div></div>
+    ))}
+
+
 
 <SectionTitle title="moods"/>
 {audios.map((audio) => (
@@ -191,7 +222,7 @@ export default function Home({ audios }) {
     <style jsx>
       {`
    main {
- max-width: 64rem;
+ max-width: 80rem;
  display: flex;
  flex-flow: row wrap;
  justify-content: center;
@@ -200,7 +231,11 @@ export default function Home({ audios }) {
 
 
 }
-
+#music {
+  display: flex;
+  flex-flow: row wrap;
+ 
+}
       `}
     </style>
     </>

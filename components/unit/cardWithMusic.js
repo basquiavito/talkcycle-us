@@ -8,27 +8,10 @@ function audiocard(props){
     return <>
     <div id="main">
  
-<div className="meta">
-    <strong><span>{`${props.episode}`}</span></strong>  <em><span>{props.duration}</span></em> </div>
-
-<div className="imageContainer">
-<Image  
-width="300"
-height="300"
-alt="sonido"
-src={props.image}
-
-
-/>
-</div>
-<div className="audioContainer">
- <AudioPlayer
-  src={props.audio}
  
-  controls
-/>  
-</div>
- 
+<iframe allow="autoplay *; encrypted-media *;"  frameborder="0" height="150" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src={props.link}></iframe>
+<div className="lyricContainer">
+    <p ><span>{props.excerpt}</span></p></div>
     </div>
     
     
@@ -46,7 +29,19 @@ display: flex;
 justify-content: space-between;
 padding: 15px; 10px 0 15px;
 }
-        
+   .song {
+
+
+width:100%; 
+maxWidth:660px; 
+overflow:hidden;
+ background:transparent;
+ }
+   .lyricContainer {
+    margin: 1.25rem;
+    min-height: 0px;
+    max-width: 300px;
+   } 
         `}
     </style>
     </>
