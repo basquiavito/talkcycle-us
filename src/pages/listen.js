@@ -1,10 +1,10 @@
-import Link from 'next/link'
+ 
 import { connectToDatabase } from '../../utils/mongoDb'
  import Head from 'next/head'
  import SectionTitle from '../../components/unit/sectionTitle'
-import Cargo2 from '../../components/unit/cargo2'
+ 
  import Script from 'next/script'
- import redirect from 'nextjs-redirect'
+ 
 import AudioCard from '../../components/unit/audioCard'
 import Cardwithmusic from '../../components/unit/cardWithMusic'
 import LazyLoad from 'react-lazy-load';
@@ -122,7 +122,7 @@ export default function Home({ audios }) {
         
 <div className='containerFluid'>
 
- 
+ <LazyLoad>
         <div className='containerHold'>
    
    
@@ -140,7 +140,10 @@ export default function Home({ audios }) {
  
  
        
-      </div></div></div>
+      </div>
+      
+      
+      </LazyLoad></div></div>
     ))}
 
 
@@ -151,7 +154,7 @@ export default function Home({ audios }) {
         
 <div className='containerFluid'>
 
- 
+ <LazyLoad>
         <div className='containerHold'>
    
    
@@ -171,7 +174,7 @@ link={audio.link}
  
  
        
-      </div></div></div>
+      </div></LazyLoad></div></div>
     ))}
 
 
@@ -183,7 +186,7 @@ link={audio.link}
         
 <div className='containerFluid'>
 
- 
+ <LazyLoad>
         <div className='containerHold'>
   
    
@@ -198,7 +201,7 @@ link={audio.link}
  
  
        
-      </div></div></div>
+      </div></LazyLoad></div></div>
     ))}
 
 
