@@ -1,10 +1,9 @@
  
 import { connectToDatabase } from '../../utils/mongoDb'
  import Head from 'next/head'
- import ShowMore from 'react-show-more';
-
  
- import redirect from 'nextjs-redirect'
+ 
+
 import InfiniteScrolling from '../../components/unit/infiniteScrolling'
  
 

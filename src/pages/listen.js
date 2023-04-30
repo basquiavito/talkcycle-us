@@ -3,15 +3,9 @@ import { connectToDatabase } from '../../utils/mongoDb'
  import Head from 'next/head'
  import SectionTitle from '../../components/unit/sectionTitle'
  import { useState, useEffect, useRef, useCallback } from 'react';
-
  import Script from 'next/script'
- import InfiniteScrolling from '../../components/unit/infiniteScrolling'
 import AudioCard from '../../components/unit/audioCard'
-import Cardwithmusic from '../../components/unit/cardWithMusic'
 import LazyLoad from 'react-lazy-load';
-import CardWatch from '../../components/unit/cardWatch'
-import InfiniteScroll from 'react-infinite-scroll-component';
-import Button from '../../components/unit/button'
 import Link from 'next/link'
 
 
