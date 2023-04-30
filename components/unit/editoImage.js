@@ -13,7 +13,6 @@ function image(props){
  alt={`${props.title}`}
  width="310"
  height="320"
- style={{}}
  className="sizeImage"
  priority
 

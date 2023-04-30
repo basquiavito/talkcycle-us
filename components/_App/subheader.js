@@ -16,6 +16,10 @@ href="/articles" legacyBehavior><a  className="chartList"><span className="detai
 <Link 
 href="/listen" legacyBehavior><a  className="chartList"><span className="details">listen</span> </a> 
 </Link>
+{/* 
+<Link 
+href="/pronunciation" legacyBehavior><a  className="chartList"><span className="details">pronunciation</span> </a> 
+</Link> */}
 
   
 {/* <Link 

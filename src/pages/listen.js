@@ -2,15 +2,49 @@
 import { connectToDatabase } from '../../utils/mongoDb'
  import Head from 'next/head'
  import SectionTitle from '../../components/unit/sectionTitle'
- 
+ import { useState, useEffect, useRef, useCallback } from 'react';
+
  import Script from 'next/script'
- 
+ import InfiniteScrolling from '../../components/unit/infiniteScrolling'
 import AudioCard from '../../components/unit/audioCard'
 import Cardwithmusic from '../../components/unit/cardWithMusic'
 import LazyLoad from 'react-lazy-load';
 import CardWatch from '../../components/unit/cardWatch'
+import InfiniteScroll from 'react-infinite-scroll-component';
+import Button from '../../components/unit/button'
+import Link from 'next/link'
+
+
+
+
 export default function Home({ audios }) {
-  
+  const [displayedAudioCount, setDisplayedAudioCount] = useState(10);
+  const [hasMoreAudio, setHasMoreAudio] = useState(true);
+  const observer = useRef();
+
+  const lastAudioRef = useCallback((node) => {
+    if (observer.current) observer.current.disconnect();
+    observer.current = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        setDisplayedAudioCount((prevCount) => prevCount + 10);
+      }
+    });
+    if (node) observer.current.observe(node);
+  }, []);
+
+  useEffect(() => {
+    if (displayedAudioCount >= audios.length) {
+      setHasMoreAudio(false);
+    } else {
+      setHasMoreAudio(true);
+    }
+  }, [displayedAudioCount, audios.length]);
+
+  const handleLoadMoreClick = () => {
+    setDisplayedAudioCount((prevCount) => prevCount + 10);
+  };
+
+
   
     return <>
  <Head>
@@ -115,39 +149,81 @@ export default function Home({ audios }) {
  
 
       <main>
+
+ 
       <SectionTitle title="Sounds"/>
-    {audios.map((audio) => (
-      <div id="main" key={audio._id}>
+   
+    <div>
+    {audios.slice(0, displayedAudioCount).map((audio, index) => {
+      if (index === displayedAudioCount - 1) {
+        return (
+          <div id="main" key={audio._id} ref={lastAudioRef}>
+            <div className='containerFluid'>
+              <LazyLoad>
+                <div className='containerHold'>
+                  <Link href={`/listen/${audio.slug}`}>
+                    <AudioCard 
+                      spanish={audio.spanish} 
+                     english={audio.english} 
+                      image={audio.image}
+                      audio={audio.audio}
+                    />
+                  </Link>
+                </div>
+              </LazyLoad>
+            </div>
+          </div>
+        );
+      } else {
+        return (
+          <div id="main" key={audio._id}>
+            <div className='containerFluid'>
+              <LazyLoad>
+                <div className='containerHold'>
+                  <Link href={`/listen/${audio.slug}`}>
+                    <AudioCard 
+                      episode={audio.episode} 
+                      duration={audio.duration} 
+                      image={audio.image}
+                      audio={audio.audio}
+                    />
+                  </Link>
+                </div>
+              </LazyLoad>
+            </div>
+          </div>
+        );
+      }
+    })}
+    {hasMoreAudio ? (
+      <button onClick={handleLoadMoreClick}>
+        Load More
+      </button>
+    ) : (
+      <p>No more audio items to display.</p>
+    )}
+  </div>
 
-        
-<div className='containerFluid'>
 
- <LazyLoad>
-        <div className='containerHold'>
-   
-   
-            <AudioCard 
-          episode={audio.episode} 
-         duration={audio.duration} 
-         image={audio.image}
-            audio={audio.mp3}
-            
-            
-            />
-        
-   
  
  
- 
-       
-      </div>
+
       
-      
-      </LazyLoad></div></div>
-    ))}
+   
+ 
+
+ {displayedAudioCount < audios.length && (
+       <button onClick={() => setDisplayedAudioCount(displayedAudioCount + 10)}>
+         Load More
+       </button>
+     )}
 
 
-<SectionTitle title="Music"/>
+
+
+
+ 
+{/* <SectionTitle title="Music"/>
     {audios.map((audio) => (
       <div id="music" key={audio._id}>
 
@@ -175,11 +251,11 @@ link={audio.link}
  
        
       </div></LazyLoad></div></div>
-    ))}
+    ))} */}
 
 
 
-<SectionTitle title="Watch"/>
+{/* <SectionTitle title="Watch"/>
 {audios.map((audio) => (
       <div id="main" key={audio._id}>
 
@@ -203,11 +279,11 @@ link={audio.link}
        
       </div></LazyLoad></div></div>
     ))}
+ */}
 
 
 
-
-
+ 
 
 
 
@@ -236,6 +312,11 @@ link={audio.link}
   display: flex;
   flex-flow: row wrap;
  
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content:
 }
       `}
     </style>

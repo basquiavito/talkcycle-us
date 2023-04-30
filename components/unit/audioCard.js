@@ -4,12 +4,14 @@ import ReactAudioPlayer from 'react-audio-player';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
+
+
 function audiocard(props){
     return <>
     <div id="main">
  
 <div className="meta">
-    <strong><span>{`${props.episode}`}</span></strong>  <em><span>{props.duration}</span></em> </div>
+    <strong><span>{`${props.spanish}`}</span></strong>  <em><span>{props.english}</span></em> </div>
 
 <div className="imageContainer">
 <Image  
@@ -36,8 +38,9 @@ src={props.image}
         {`
        #main {
         padding-left: 5px;
-        border-bottom: 1px solid #ccc;
+ 
         margin-bottom: 1rem;
+        padding: 2.25rem;
        }
        
         

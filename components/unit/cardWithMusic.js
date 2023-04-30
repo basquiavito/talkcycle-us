@@ -2,7 +2,8 @@ import Image from "next/image"
  import SectionTitle from "./sectionTitle";
 import ReactAudioPlayer from 'react-audio-player';
 import AudioPlayer from 'react-h5-audio-player';
- 
+import LazyLoad from 'react-lazy-load';
+
 
 function audiocard(props){
     return <>
