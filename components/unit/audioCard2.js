@@ -15,7 +15,7 @@ function audiocard(props){
     
 </div>
 <div className="meta2">
-    <strong><span className="spanish">{`${props.spanish}`}</span></strong>  <em><span>{props.caption}</span></em>
+    <em><span>{props.caption}</span></em>
     
 </div>
 
