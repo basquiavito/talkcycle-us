@@ -101,7 +101,8 @@ export default function Home() {
         <div className={styles.card}>
           <h3>Average-Level Spanish Practice</h3>
           <ul>
-            <li>Spanish practice with gustar</li>
+            <li><Link href="/articles/Spanish-practice-with-the-verb-gustar">Spanish practice with gustar</Link></li>
+            <li><Link href="/articles/Spanish-Practice-Word-of-the-Day-Cariño">Spanish practice word of the day: cariño</Link></li>
             <li>Spanish practice with ser</li>
             <li>Practice Spanish with you</li>
             <li>Spanish words to practice rolling r</li>
