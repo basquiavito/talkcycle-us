@@ -146,7 +146,7 @@ link={audio.link}
  justify-content: center;
  padding: 1.5rem;
  margin: auto;
-
+min-height: 1000px;
 
 }
 #music {
