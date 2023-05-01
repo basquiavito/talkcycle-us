@@ -6,7 +6,7 @@
     width: 100%;
     bottom: 0;
     
-    
+    text-align: center;
 }
 
 .gridMargins {
@@ -48,6 +48,7 @@
     -ms-flex-pack: center;
     justify-content: center;
     background-color: #212121;
+    
 }
 .gridItems {
     display: grid;
@@ -79,22 +80,15 @@
 
      
     .siteFooterContainer {
-        grid-template-areas:
-        'f-brand f-brand f-brand f-brand'
-        'f-nav f-nav f-nav f-nav'
-        'f-nav-contact f-nav-contact f-nav-contact f-nav-contact'
-        'f-meta f-meta f-meta f-meta';
+   
     padding-top: 3rem;
     text-align: center;
     justify-items: center; 
     }
     @media only screen and (min-width: 1280px){
  .siteFooterContainer {
-    grid-template-areas:
-    'f-brand f-brand f-brand f-brand f-brand f-brand f-nav f-nav f-nav f-nav-contact f-nav-contact f-nav-contact'
-    'f-brand f-brand f-brand f-brand f-brand f-brand f-nav f-nav f-nav f-nav-contact f-nav-contact f-nav-contact'
-    'f-brand f-brand f-brand f-brand f-brand f-brand f-nav f-nav f-nav f-nav-contact f-nav-contact f-nav-contact'
-    'f-meta f-meta f-meta f-meta f-meta f-meta f-meta f-meta f-meta f-meta f-meta f-meta';
+ 
+   
 position: relative;
 }}
 
@@ -188,12 +182,14 @@ position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #fff;
         
      }
      .siteFooterAboutText > li {
         padding: 10px;
         list-style-type: none;
         text-align: center;
+        color: #fff;
       
      }
 
@@ -203,6 +199,7 @@ position: relative;
         margin: 0;
         align-items: center;
         text-transform: capitalize;
+        color: #fff;
      }}
 
      @media only screen and (min-width: 1024px){
@@ -222,8 +219,8 @@ position: relative;
             display: flex;
             margin-top: 0;
             margin-bottom: 0;
-            margin-left: -2rem;
-    flex-wrap: wrap;
+             justify-content: center;
+    flex-wrap: row wrap;
         }
 
 @media only screen and (min-width: 320px){
@@ -260,13 +257,7 @@ position: relative;
         height: 100%;
     }
 
-.navigation {
-    grid-area: f-nav;
-    grid-row-start: f-nav;
-    grid-column-start: f-nav;
-    grid-row-end: f-nav;
-    grid-column-end: f-nav;
-}
+ 
 
 @media only screen and (min-width: 1024px){
 .navHeading {

@@ -65,14 +65,16 @@ TALKCYCLE
 </ul>
 </div>
 <hr/>
+
+<div className='lowerThird'>
  <ul className={styles.siteFooterAboutText}   >
- <li><Link href="/sitemap"><span>sitemap</span></Link> </li>
- <li><Link href="/about"><span>about</span></Link> </li>
- <li><Link href=""><span>contact</span></Link> </li>
+ <li><Link href="/sitemap"><span className='link'>sitemap</span></Link> </li>
+ <li><Link href="/about"><span  className='link'>about</span></Link> </li>
+ <li><Link href="mailto:info@guillermolanguageservices.com"><span  className='link'>contact</span></Link> </li>
  
  
  
-  </ul> 
+  </ul> </div>
 </div> 
 
  
@@ -93,15 +95,13 @@ TALKCYCLE
 svg:not(:root) {
     overflow: hidden;
 }
-.listItems {
-    padding-left: 2rem;
-}
+ 
 a {
     transition-timing-function: ease-in-out;
     transition-property: color,background,text-shadow;
     background-color: transparent;
     cursor: pointer;
-    color: #f5f5f2;
+    color: #fff;
 }
 hr {
  
@@ -126,7 +126,16 @@ nav {
 footer {
     background-color:  #000;
 } 
- 
+ .lowerThird {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.link{
+    color: #fff;
+ }
 `}    
 </style>
     </>

@@ -21,7 +21,7 @@ function Header( ) {
  
 
  <div className="logo">
- <Link  href="/" legacyBehavior><a><h1>TalkCycle</h1></a></Link> </div>
+ <Link  href="/" ><h1><span>TalkCycle</span></h1></Link></div>
  
 
 
@@ -58,7 +58,11 @@ function Header( ) {
 
    h1{
     font-family: Walfolk;
+color: #181818;
+
    }
+
+
    `}
  </style>
  
