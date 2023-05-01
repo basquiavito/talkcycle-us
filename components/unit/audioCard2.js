@@ -11,11 +11,11 @@ function audiocard(props){
     <div id="main">
  <div className="titleContainer"><h2>{props.title}</h2></div>
 <div className="meta">
-   <span className="spanish">{`${props.spanish}`}</span>  <em><span className="english">{props.english}</span> </em>
+   <span className="spanish">{`${props.spanish}`}</span>   <span className="english">{props.english}</span>  
     
 </div>
 <div className="meta2">
-    <em><span>{props.caption}</span></em>
+   <p><em><span>{props.caption}</span></em></p> 
     
 </div>
 
