@@ -2,7 +2,7 @@ import { connectToDatabase } from '../../../utils/mongoDb'
  import Head from 'next/head';
 import Script from 'next/script';
 import LinkToa2 from '../../../components/unit/linkToa2'
-
+ 
 export async function getStaticPaths() {
   const { db } = await connectToDatabase();
   const articles = await db.collection("articles").find({}).toArray();
@@ -391,7 +391,16 @@ heading7={article.headings[7]}
 heading8={article.headings[8]}
 
           />
-        </div></div> 
+        </div>
+        
+     
+</div>
+        
+        
+        
+        
+        
+  
 
         <style jsx>{`
         .pageGrid {

@@ -1,5 +1,5 @@
 import styles from '@/styles/footer.module.css'
-
+import Link from 'next/link'
 
 export default function footer(){
     return <>
@@ -64,10 +64,16 @@ TALKCYCLE
 </li>
 </ul>
 </div>
-<hr/><br/>
+<hr/>
  <ul className={styles.siteFooterAboutText}   >
- Site map | About | Newsletter  | Contact us   </ul> 
-</div><br/>
+ <li><Link href="/sitemap"><span>sitemap</span></Link> </li>
+ <li><Link href="/about"><span>about</span></Link> </li>
+ <li><Link href=""><span>contact</span></Link> </li>
+ 
+ 
+ 
+  </ul> 
+</div> 
 
  
 </div>

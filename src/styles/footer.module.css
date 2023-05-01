@@ -185,8 +185,17 @@ position: relative;
         align-items: center;
         text-transform: capitalize;
         font-family: Walfolk;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
      }
-
+     .siteFooterAboutText > li {
+        padding: 10px;
+        list-style-type: none;
+        text-align: center;
+      
+     }
 
      @media only screen and (min-width: 1024px){
 
@@ -201,7 +210,7 @@ position: relative;
         .siteFooterAbout{
          
             width: 100%;
-            height: 60px;
+            height: 100px;
    text-align: center;
         }}
 
