@@ -35,7 +35,7 @@ db.articles.updateOne(
                 "preLink":"Now that you understand the difference between ser and estar, it's time to get some practice using them. Here are a few sentences to help you get started:",
                 "linkto":"","linktxt":"  ","preLink0":"","linkto0":"","postLink":"","linktx0":"","postLink0":""},
                 "nutgraph4":{"preLink":"","linkto":" ","linktxt":" ","postLink":" ","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
-                "nutgraph5":{"preLink":"","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "nutgraph5":{"preLink":"Watch this exceprt from El Chavo Del Ocho:","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
                 "nutgraph6":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
                 "nutgraph7":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
                 "nutgraph8":{"preLink":" ","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},

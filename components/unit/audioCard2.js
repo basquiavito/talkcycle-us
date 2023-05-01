@@ -18,8 +18,10 @@ function audiocard(props){
    <p><em><span>{props.caption}</span></em></p> 
     
 </div>
+<div>
+ 
 
-<div className="imageContainer">
+{ props.imgage ? ( <div className="imageContainer">
 <Image  
 width="240"
 height="240"
@@ -28,10 +30,10 @@ src={props.image}
 
 
 />
+</div>) : null }
+
+
 </div>
-
-
-
 <div className="audioContainer">
  <AudioPlayer
   src={props.audio}

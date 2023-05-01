@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://www.talkcycle.net</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/about</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/articles</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/listen</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/pronunciation</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/listen/yo-estoy-triste</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/listen/Yo-esoty-feliz</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/articles/Spanish-practice-with-the-verb-gustar</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.talkcycle.net/articles/Spanish-Practice-Word-of-the-Day-Cariño</loc><lastmod>2023-05-01T01:20:56.654Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/about</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/articles</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/listen</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/sitemap</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/listen/spanish-practice-adjetivo-con-mi-caballo</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/articles/Spanish-practice-with-the-verb-gustar</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/articles/Spanish-Practice-Word-of-the-Day-Cariño</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/articles/Spanish-Practice-with-Verbs-Ser-and-Estar</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.talkcycle.net/articles/spanish-practice-mastering-Tu</loc><lastmod>2023-05-01T14:51:58.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
