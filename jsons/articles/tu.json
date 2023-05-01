@@ -34,7 +34,7 @@ db.articles.updateOne(
 },
 "nutgraph1":{
         "preLink":"In Spanish, there are two ways to say tu:",
-        "linkto":"","linktxt":"'tu' and 'usted'. ","postLink":" Tu is used to address someone informally, such as a friend or family member, while usted is used to address someone formally, such as a boss or elder. Learning to use tu correctly is important because it allows for a more natural and relaxed conversation, which can make it easier to connect with Spanish speakers.","preLink0":"","linkto0":"","linktxt0":"","postLink0":""},
+        "linkto":"https://studyspanish.com/grammar/test/informcomm1.htm","linktxt":"'tu' and 'usted'. ","postLink":" Tu is used to address someone informally, such as a friend or family member, while usted is used to address someone formally, such as a boss or elder. Learning to use tu correctly is important because it allows for a more natural and relaxed conversation, which can make it easier to connect with Spanish speakers.","preLink0":"","linkto0":"","linktxt0":"","postLink0":""},
         "nutgraph2":{
             "preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktxt0":"","postLink0":""},
             "nutgraph3":{
@@ -46,7 +46,7 @@ db.articles.updateOne(
 
                 "nutgraph6":{"preLink":"Learning to use tu correctly is an important step in mastering the Spanish language. By using informal language, you're signaling your willingness to connect with others and building relationships. With consistent practice and a willingness to make mistakes, you can become more confident in your ability to speak Spanish and connect with Spanish speakers around the world. ","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
 
-                "nutgraph7":{"preLink":"Watch Alicia Keys singing Spanish Version of 'If I ain't got you.' ","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
+                "nutgraph7":{"preLink":"Watch Alicia Keys singing Spanish version of 'If I ain't got you.' ","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
 
                 "nutgraph8":{"preLink":" ","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
                 "nutgraph9":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
@@ -57,7 +57,7 @@ db.articles.updateOne(
                 "ogDescription":"Learn how to use the essential Spanish verb \"ser\" with this article. Practice conjugating \"ser\" in different tenses and with different subjects using various examples. Improve your understanding and become more comfortable using it in everyday conversations.",
                 "modifiedDate":"none",
                 "ogImage":"https://res.cloudinary.com/dsidx1efo/image/upload/c_scale,w_1160/v1682950977/talkcycle/audio/audio%20cards/spanish%20practice%20with%20you%20or%20tu.jpg",
-                "slug":"Spanish-Practice-Mastering-Tu",
+                "slug":"spanish-practice-mastering-Tu",
                 "gram":["","","","","","","https://www.instagram.com/p/Crd9xH7JtjE/"],
                 "tiktok":[""],
                 "tweet":["","","","","","","",""],
