@@ -114,7 +114,7 @@ export default function Home({ articles  }) {
       {`
       main {
     min-height: 1200px;
- max-width: 64rem;
+ max-width: 84rem;
  padding: 1.5rem;
  margin: auto;
     
@@ -133,7 +133,7 @@ export default function Home({ articles  }) {
 
       .linking {
         color: #000;
-      
+      padding: 3rem;
       }
      
       `}
