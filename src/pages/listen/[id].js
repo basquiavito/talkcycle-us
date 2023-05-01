@@ -102,7 +102,8 @@ slug={audio.slug }
         display: flex;
         justify-content: center;
             margin: auto;
-            background-color: rgb(247 , 247, 243);
+            padding: 1rem;
+        
       min-height: 1000px;
         }
         p{
