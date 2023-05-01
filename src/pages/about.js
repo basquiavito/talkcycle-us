@@ -37,7 +37,7 @@ function About() {
   
  <meta name="twitter:card" content="summary_large_image"></meta>
  <meta name="twitter:creator" content="@talkcycle_us"></meta>
- <meta name="twitter:title" content='about'/> 
+ <meta name="twitter:title" content='Home'/> 
  <meta name="twitter:description" content="Talkcycle.net — Take your Spanish skills to the next level with Talkcycle's online Spanish Practice platform. Our self-paced beginner's course includes easy online Spanish lessons and conversation classes through Zoom, designed to help you become fluent. Submit your practice conversations and receive expert feedback from our instructors, plus one live session a week for assistance and support. Choose the best online Spanish course  and start speaking Spanish like a pro with Talkcycle today!   "></meta>
  <meta name="article:author" content='Talkcycle'></meta>
  <meta property="twitter:image" content=''/>
@@ -66,26 +66,47 @@ function About() {
 
 
       </Head>
-<div>
+<div id="main">
+
+  <div>
       <h1>About Talkcycle</h1>
-      <p>Welcome to Talkcycle, the online Spanish learning platform that helps you practice your speaking skills and improve your confidence.</p>
-      <h2>Our Features</h2>
+      </div>
+      <div>     
+         <p>Welcome to Talkcycle, the online Spanish learning platform that helps you practice your speaking skills and improve your confidence.</p>
+         </div>
+
+<div> <h2>Our Features</h2></div>
+     
+
+     <div>
       <ul>
-        <li><h3>Recorded classes with native Spanish speakers</h3><span>Talkcycle offers recorded classes led by native Spanish speakers, which allows students to practice their speaking skills and learn from experienced professionals. These classes are accessible at any time, so students can practice whenever it's convenient for them.</span> </li>
+        <li>
+          <h3>Recorded classes with native Spanish speakers</h3>
+        <span>Talkcycle offers recorded classes led by native Spanish speakers, which allows students to practice their speaking skills and learn from experienced professionals. These classes are accessible at any time, so students can practice whenever it's convenient for them.</span> 
+        </li>
         <li><h3>Personalized feedback and guidance from your teacher</h3> <span>Talkcycle provides personalized feedback and guidance to each student from their teacher, which helps them to identify areas for improvement and receive targeted advice on how to improve their language skills. This feature makes the learning process more effective and efficient.</span></li>
         <li><h3>A user-friendly platform that's easy to navigate</h3> <span>The Talkcycle website is designed to be user-friendly and easy to navigate, even for beginners. The platform offers a clear and intuitive interface that makes it easy to find the content and resources students need to succeed.</span></li>
         <li><h3>A flexible schedule that fits your busy lifestyle</h3><span>Talkcycle's flexible schedule allows students to learn at their own pace and on their own schedule. This feature makes it easy for busy professionals and students to fit language learning into their already-packed schedules.</span> </li>
-      </ul>
+      </ul></div>
+     
     </div>
 
 
       <style jsx>
         {
             `
+
+
+
+            #main {
+              display: flex;
+              justify-content: center;
+              flex-flow: column wrap;
+              align-items: center;
+            }
             div {
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 50px;
+              
+          
                 font-family: Walfolk;
               }
           
@@ -114,9 +135,12 @@ function About() {
               ul {
                 margin-top: 20px;
                 margin-bottom: 50px;
+                display: flex;
+                justify-content: center;
+                flex-flow: column wrap;
               }
           
-              li {
+            ul > li {
                 margin-top: 10px;
                  
                 font-size: 18px;
@@ -130,33 +154,7 @@ function About() {
           span{
             font-weight: 400;
           }
-              @media (max-width: 600px) {
-                div {
-                  padding: 10px;
-                }
-          
-                h1 {
-                  font-size: 24px;
-                  margin-bottom: 20px;
-                }
-          
-                h2 {
-                  font-size: 20px;
-                }
-          
-                p {
-                  font-size: 16px;
-                  margin-bottom: 20px;
-                }
-          
-                li {
-                  font-size: 16px;
-                }
-              }  
-            
-            h3{
-                font-family: Walfolk; 
-            }
+               
             
             
             

@@ -38,8 +38,8 @@ export default function Home({ audios }) {
          spanish={audio.spanish} 
          english={audio.english} 
          image={audio.image}
-            audio={audio.mp3}
-            caption={audio.caption}
+         title={audio.title}
+       
             
             
             />

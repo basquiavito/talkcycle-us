@@ -37,12 +37,13 @@ export async function getStaticProps({ params }) {
     <div className="pageGrid">
         <div className="gridCenter">
         <AudioCard2
-
+title={audio.title}
 spanish={audio.spanish}
 english={audio.english}
 slug={audio.slug }
  image={audio.image}
- audio={audio.mp3}
+ audio={audio.audio}
+ caption={audio.caption}
  
           />
         </div></div> 

@@ -9,9 +9,9 @@ import 'react-h5-audio-player/lib/styles.css';
 function audiocard(props){
     return <>
     <div id="main">
- 
+ <div className="titleContainer"><h2>{props.title}</h2></div>
 <div className="meta">
-    <strong><span className="spanish">{`${props.spanish}`}</span></strong>  <em><span>{props.english}</span></em>
+   <span className="spanish">{`${props.spanish}`}</span>  <em><span className="english">{props.english}</span> </em>
     
 </div>
 <div className="meta2">
@@ -50,7 +50,7 @@ src={props.image}
     <style jsx>
         {`
        #main {
- 
+ font-family: Tiempos;
  display: flex;
  flex-flow: column wrap;
  border-right: 1px solid #eee;
@@ -58,8 +58,13 @@ src={props.image}
         padding: 1rem;
        }
 
-
-
+.titleContainer {
+    padding: 2.25rem;
+    
+}
+.titleContainer > h2 {
+    font-size: 14px;
+}
        @media (max-width: 600px){
        #main {
         border-right: 0;
@@ -69,12 +74,20 @@ src={props.image}
 
 
      .spanish {
-            font-weight: 700;
+      
+            font-weight: 900;
+            font-size: 16px;
+        }
+
+
+        .english {
+font-size: 14px; 
         }
 .meta {
 display: flex;
 justify-content: space-between;
 padding: 15px; 10px 0 15px;
+border-bottom: 1px solid #ccc;
 }
 
  .meta2{

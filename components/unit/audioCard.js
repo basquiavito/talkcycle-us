@@ -9,15 +9,12 @@ import 'react-h5-audio-player/lib/styles.css';
 function audiocard(props){
     return <>
     <div id="main">
- 
+    <div className="titleContainer"><h2>{props.title}</h2></div>
 <div className="meta">
     <strong><span className="spanish">{`${props.spanish}`}</span></strong>  <em><span>{props.english}</span></em>
     
 </div>
-<div className="meta2">
-    <strong><span className="spanish">{`${props.spanish}`}</span></strong>  <em><span>{props.caption}</span></em>
-    
-</div>
+ 
 
 <div className="imageContainer">
 <Image  
@@ -83,7 +80,13 @@ padding: 15px; 10px 0 15px;
     border-opacity: 0.2;
     padding: 5px;
  }
-        
+ .titleContainer {
+    padding: 2.25rem;
+    
+}
+.titleContainer > h2 {
+    font-size: 14px;
+}
         `}
     </style>
     </>

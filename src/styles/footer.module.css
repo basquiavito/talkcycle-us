@@ -186,7 +186,7 @@ position: relative;
         
      }
      .siteFooterAboutText > li {
-        padding: 10px;
+        padding-right: 10px;
         list-style-type: none;
         text-align: center;
         color: #fff;
