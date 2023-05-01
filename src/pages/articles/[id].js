@@ -102,7 +102,14 @@ li5={article.list[5]}
 li6={article.list[6]}
 li7={article.list[7]}
 
-
+lia0={article.list1[0]}
+ lia1={article.list1[1]}
+lia2={article.list1[2]}
+lia3={article.list1[3]}
+lia4={article.list1[4]}
+lia5={article.list1[5]}
+lia6={article.list1[6]}
+lia7={article.list1[7]}
 
 
 

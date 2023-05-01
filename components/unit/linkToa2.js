@@ -256,7 +256,19 @@ function linkto(props){
 </p>
 
 
-
+{ props.li0 ? (
+<div className="listing">
+  <ul>
+    
+    <li>{props.li0}</li>
+    <li>{props.li1}</li>
+    <li>{props.li2}</li>
+    <li>{props.li3}</li>
+    <li>{props.li4}</li>
+    <li>{props.li5}</li>
+    <li>{props.li6}</li>
+    <li>{props.li7}</li></ul>
+ </div> ) : null } 
 
 {props.gram1 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -342,19 +354,7 @@ function linkto(props){
 
 </p>
  
-{ props.li0 ? (
-<div className="listing">
-  <ul>
-    
-    <li>{props.li0}</li>
-    <li>{props.li1}</li>
-    <li>{props.li2}</li>
-    <li>{props.li3}</li>
-    <li>{props.li4}</li>
-    <li>{props.li5}</li>
-    <li>{props.li6}</li>
-    <li>{props.li7}</li></ul>
- </div> ) : null } 
+
 
 {props.gram2 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -512,6 +512,21 @@ function linkto(props){
   <h2>{props.list4}</h2>
  </div> ) : null }  */}
 
+
+
+{ props.li1 ? (
+<div className="listing">
+  <ul>
+    
+    <li>{props.lia0}</li>
+    <li>{props.lia1}</li>
+    <li>{props.lia2}</li>
+    <li>{props.lia3}</li>
+    <li>{props.lia4}</li>
+    <li>{props.lia5}</li>
+    <li>{props.lai6}</li>
+    <li>{props.lia7}</li></ul>
+ </div> ) : null } 
 {props.gram4 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
     <InstagramEmbed url={props.gram4} width={320} />

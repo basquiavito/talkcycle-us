@@ -1,0 +1,63 @@
+db.articles.updateOne(
+   
+   {"_id" : ObjectId("644fabf5b48acda8c149fb0d")},
+
+    {"$set" : {
+
+
+
+"category":"article",
+"ready":true,
+"title":"Spanish Practice with Verbs: Ser and Estar",
+"author":"Richard Clemons ",
+"date":"May 1, 2023",
+"dekk":"The Spanish verbs ser and estar can be challenging for learners, but with some practice and a few key tips, you can start using them with confidence.",
+"image":"v1682945938/talkcycle/audio/audio%20cards/to_be_verbo_ser_y_estar_Converted_w9wshe.png",
+"keywords":"ser, verb to be in spanish, Spanish classes, online spanish, spanish practice with gustar",
+"player":"verb",
+
+"lead":
+{
+    "preLink":"For anyone learning Spanish, mastering the verbs ",
+"linkto":"https://studyspanish.com/grammar/test/serest1","linktxt":" ser and estar","postLink":"is a must. These two verbs both mean to be, but they are used in very different contexts. If you're struggling to get the hang of them, don't worry – you're not alone. Here are some tips and practice sentences to help you on your way.","linkto0":"",
+"linktxt0":"","postLink0":"","preLink0":""},
+"nutgraph0":{
+    "preLink":"The first step to mastering these two verbs is to understand the difference between them. In general, ser is used to describe permanent states or characteristics, while estar is used for temporary states or conditions.",
+    "linkto":"",
+    "linktxt":"","postLink":"","preLink0":"","linkto0":"","linktxt0":"","postLink0":""
+},
+"nutgraph1":{
+        "preLink":"For example, you would use ser to talk about someone's nationality (Soy mexicano/a), occupation (Él es un profesor), or physical characteristics (La mesa es grande). On the other hand, you would use estar to talk about someone's location (Estoy en casa), mood (Estoy feliz), or health (Estoy enfermo/a).",
+        "linkto":"","linktxt":" ","postLink":" ","preLink0":"","linkto0":"","linktxt0":"","postLink0":""},
+        "nutgraph2":{
+            "preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktxt0":"","postLink0":""},
+            "nutgraph3":{
+                "preLink":"Now that you understand the difference between ser and estar, it's time to get some practice using them. Here are a few sentences to help you get started:",
+                "linkto":"","linktxt":"  ","preLink0":"","linkto0":"","postLink":"","linktx0":"","postLink0":""},
+                "nutgraph4":{"preLink":"","linkto":" ","linktxt":" ","postLink":" ","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "nutgraph5":{"preLink":"","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "nutgraph6":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
+                "nutgraph7":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
+                "nutgraph8":{"preLink":" ","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "nutgraph9":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "nutgraph10":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "Distribution":{"hooperos":"false","youtube":"false","facebook":"false","instagram":"false","twitter":"false","reddit":"false","tiktok":"false","linkedld":"false","pinterest":"false","snapshot":"false","tumblr":"false"},
+                "video":[{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""}],
+                "categoryLink":"",
+                "ogDescription":"Learn how to use the essential Spanish verb \"ser\" with this article. Practice conjugating \"ser\" in different tenses and with different subjects using various examples. Improve your understanding and become more comfortable using it in everyday conversations.",
+                "modifiedDate":"none",
+                "ogImage":"https://res.cloudinary.com/dsidx1efo/image/upload/v1682945938/talkcycle/audio/audio%20cards/to_be_verbo_ser_y_estar_Converted_w9wshe.png",
+                "slug":"Spanish-Practice-with-Verbs-Ser-and-Estar",
+                "gram":["","","","","","",""],
+                "tiktok":[""],
+                "tweet":["https://twitter.com/M0THERDUCKR/status/1652045498621018112","","","","","","",""],
+                "youtube":["","","","","","","",""],
+                "gifs":["","","","","","","","",""],
+                "headings":["Understanding the Difference Between Ser and Estar","  ","Practice Makes Perfect","","","","",""],
+                "list1":["1.Mi hermana ________ alta y delgada. (My sister is tall and thin.)","2. ________ las seis de la tarde. (It's six in the evening.)","3.¿Dónde ________ el baño? (Where is the bathroom?)","4.Yo no ________ seguro/a de que ella tenga razón. (I'm not sure she's right.)","5. La cena ________ lista en media hora. (Dinner will be ready in half an hour.)","","",""],
+                "list":[""," ","","","","","",""],
+                
+            }
+
+
+})
