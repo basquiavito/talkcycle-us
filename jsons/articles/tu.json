@@ -1,0 +1,73 @@
+db.articles.updateOne(
+   
+   {"_id" : ObjectId("644fc6c4b48acda8c14c8fb9")},
+
+    {"$set" : {
+
+
+
+"category":"article",
+"ready":true,
+"title":"Spanish Practice: Mastering 'Tu'",
+"author":"Richard Clemons ",
+"date":"May 1, 2023",
+"dekk":" Learning a new language can be challenging, but incorporating it into your daily life can make all the difference. One of the most important aspects of learning Spanish is mastering the use of tu, and we're here to help.",
+"image":"v1682950977/talkcycle/audio/audio%20cards/spanish%20practice%20with%20you%20or%20tu.jpg",
+"keywords":"pronoun you, tu, Spanish classes, online spanish, spanish practice with gustar",
+"player":"pronoun",
+
+"lead":
+{
+"preLink":"As the second most spoken language in the world, Spanish is becoming increasingly essential for global communication. While there are many resources available for learning the language, the most effective way to become fluent is through consistent practice. And one crucial element of Spanish practice is mastering the use of  ",
+"linkto":"",
+"linktxt":"tu,",
+"postLink":"the informal singular pronoun.",
+"linkto0":"",
+"linktxt0":"",
+"postLink0":"",
+"preLink0":""},
+
+"nutgraph0":{
+    "preLink":"As the second most spoken language in the world, Spanish is becoming increasingly essential for global communication. While there are many resources available for learning the language, the most effective way to become fluent is through consistent practice. And one crucial element of Spanish practice is mastering the use of",
+    "linkto":"",
+    "linktxt":"tu","postLink":"","preLink0":"","linkto0":"","linktxt0":"","postLink0":""
+},
+"nutgraph1":{
+        "preLink":"In Spanish, there are two ways to say tu:",
+        "linkto":"","linktxt":"'tu' and 'usted'. ","postLink":" Tu is used to address someone informally, such as a friend or family member, while usted is used to address someone formally, such as a boss or elder. Learning to use tu correctly is important because it allows for a more natural and relaxed conversation, which can make it easier to connect with Spanish speakers.","preLink0":"","linkto0":"","linktxt0":"","postLink0":""},
+        "nutgraph2":{
+            "preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktxt0":"","postLink0":""},
+            "nutgraph3":{
+                "preLink":"One of the challenges of learning a new language is overcoming the fear of making mistakes. Many people are hesitant to use tu because they're worried about using it incorrectly or coming across as disrespectful. However, using tu shows that you're making an effort to connect with the other person and that you're invested in the conversation.",
+                "linkto":"","linktxt":"  ","preLink0":"","linkto0":"","postLink":"","linktx0":"","postLink0":""},
+                "nutgraph4":{"preLink":"Another benefit of using tu is that it can help you build relationships with Spanish speakers. By using informal language, you're signaling that you're open to a more personal connection. This can be especially important if you're traveling or living in a Spanish-speaking country, as it can help you make friends and feel more comfortable in your surroundings.","linkto":" ","linktxt":" ","postLink":" ","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+
+                "nutgraph5":{"preLink":"Using tu correctly may seem daunting at first, but with practice, it can become second nature. Here are some tips to keep in mind:","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+
+                "nutgraph6":{"preLink":"Learning to use tu correctly is an important step in mastering the Spanish language. By using informal language, you're signaling your willingness to connect with others and building relationships. With consistent practice and a willingness to make mistakes, you can become more confident in your ability to speak Spanish and connect with Spanish speakers around the world. ","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
+
+                "nutgraph7":{"preLink":"Watch Alicia Keys singing Spanish Version of 'If I ain't got you.' ","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","postLink0":"","linktxt0":""},
+
+                "nutgraph8":{"preLink":" ","linkto":"","linktxt":"  ","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "nutgraph9":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "nutgraph10":{"preLink":"","linkto":"","linktxt":"","postLink":"","preLink0":"","linkto0":"","linktx0":"","postLink0":""},
+                "Distribution":{"hooperos":"false","youtube":"false","facebook":"false","instagram":"false","twitter":"false","reddit":"false","tiktok":"false","linkedld":"false","pinterest":"false","snapshot":"false","tumblr":"false"},
+                "video":[{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""},{"video":"","img":""}],
+                "categoryLink":"",
+                "ogDescription":"Learn how to use the essential Spanish verb \"ser\" with this article. Practice conjugating \"ser\" in different tenses and with different subjects using various examples. Improve your understanding and become more comfortable using it in everyday conversations.",
+                "modifiedDate":"none",
+                "ogImage":"https://res.cloudinary.com/dsidx1efo/image/upload/c_scale,w_1160/v1682950977/talkcycle/audio/audio%20cards/spanish%20practice%20with%20you%20or%20tu.jpg",
+                "slug":"Spanish-Practice-Mastering-Tu",
+                "gram":["","","","","","","https://www.instagram.com/p/Crd9xH7JtjE/"],
+                "tiktok":[""],
+                "tweet":["","","","","","","",""],
+                "youtube":["","","","","","","",""],
+                "gifs":["","","","","","","","",""],
+                "headings":["What is tu and why is it important?","  ","Practice Makes Perfect","","Use it in your daily conversations","","",""],
+                "list1":["1. Use tu with friends and family members. This is the most common use of tu, and it's generally safe to assume that you can use it with people you're close to. For example: talking to a friend, addressing a family member, speaking to someone your own age or younger.","2. Use usted with strangers or in formal situations. If you're unsure whether to use tu or usted, it's always better to err on the side of formality. For example: talking to a stranger, addressing a boss or elder, speaking in a professional context.","","","","","",""],
+                "list":[""," ","","","","","",""],
+                
+            }
+
+
+})

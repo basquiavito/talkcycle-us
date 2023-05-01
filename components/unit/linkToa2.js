@@ -514,19 +514,7 @@ function linkto(props){
 
 
 
-{ props.li1 ? (
-<div className="listing">
-  <ul>
-    
-    <li>{props.lia0}</li>
-    <li>{props.lia1}</li>
-    <li>{props.lia2}</li>
-    <li>{props.lia3}</li>
-    <li>{props.lia4}</li>
-    <li>{props.lia5}</li>
-    <li>{props.lai6}</li>
-    <li>{props.lia7}</li></ul>
- </div> ) : null } 
+
 {props.gram4 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
     <InstagramEmbed url={props.gram4} width={320} />
@@ -604,7 +592,19 @@ function linkto(props){
 
  
 
-
+{ props.li1 ? (
+<div className="listing">
+  <ul>
+    
+    <li>{props.lia0}</li>
+    <li>{props.lia1}</li>
+    <li>{props.lia2}</li>
+    <li>{props.lia3}</li>
+    <li>{props.lia4}</li>
+    <li>{props.lia5}</li>
+    <li>{props.lai6}</li>
+    <li>{props.lia7}</li></ul>
+ </div> ) : null } 
  
 {props.gram5 ? (
   <div style={{ display: 'flex', justifyContent: 'center' }}>
