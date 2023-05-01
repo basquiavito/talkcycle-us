@@ -133,6 +133,7 @@ export default function Home({ articles  }) {
 
       .linking {
         color: #000;
+      
       }
      
       `}

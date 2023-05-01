@@ -47,6 +47,7 @@ export default function card(props){
 text-align: center;
 margin-bottom: 1rem;
 color: #000;
+padding:1rem;
   }
 
 
@@ -78,6 +79,18 @@ color: #000;
     line-height: 1.3;
     font-size: 1rem;
     color: #000;
+    --type-token: discovery.hed-core-primary;
+    text-transform: none;
+    font-family: Walfolk, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    font-variant-ligatures: none;
+    line-break: auto;
+    line-height: 1.35em;
+    font-size: 24px;
+    font-weight: 700;
+    overflow-wrap: normal;
     
   }
 
@@ -137,6 +150,29 @@ color: #000;
     letter-spacing: .075em;
     font-weight: 600;
     color: #b3b3b3;
+}
+
+
+.dekk {
+  color: rgb(26, 26, 26);
+  transition-property: color, background, text-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  margin-top: 1.5rem;
+  cursor: unset;
+  text-align: center;
+ s
+  text-transform: none;
+  font-family: Walfork, helvetica, sans-serif;
+  font-feature-settings: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  font-variant-ligatures: none;
+  line-break: auto;
+  line-height: 1.4em;
+  font-size: 14px;
+  font-weight: 400;
+  overflow-wrap: normal;
 }
   `}</style>
     </>
