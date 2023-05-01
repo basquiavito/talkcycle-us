@@ -12,7 +12,7 @@ db.articles.updateOne(
 "author":"Richard Clemons ",
 "date":"May 1, 2023",
 "dekk":"The Spanish verbs ser and estar can be challenging for learners, but with some practice and a few key tips, you can start using them with confidence.",
-"image":"v1682945938/talkcycle/audio/audio%20cards/to_be_verbo_ser_y_estar_Converted_w9wshe.png",
+"image":"v1682946593/talkcycle/audio/audio%20cards/AdobeStock_427445394_muoptg.jpg",
 "keywords":"ser, verb to be in spanish, Spanish classes, online spanish, spanish practice with gustar",
 "player":"verb",
 
@@ -46,7 +46,7 @@ db.articles.updateOne(
                 "categoryLink":"",
                 "ogDescription":"Learn how to use the essential Spanish verb \"ser\" with this article. Practice conjugating \"ser\" in different tenses and with different subjects using various examples. Improve your understanding and become more comfortable using it in everyday conversations.",
                 "modifiedDate":"none",
-                "ogImage":"https://res.cloudinary.com/dsidx1efo/image/upload/v1682945938/talkcycle/audio/audio%20cards/to_be_verbo_ser_y_estar_Converted_w9wshe.png",
+                "ogImage":"https://res.cloudinary.com/dsidx1efo/image/upload/c_scale,w_1034/v1682946593/talkcycle/audio/audio%20cards/AdobeStock_427445394_muoptg.jpg",
                 "slug":"Spanish-Practice-with-Verbs-Ser-and-Estar",
                 "gram":["","","","","","",""],
                 "tiktok":[""],

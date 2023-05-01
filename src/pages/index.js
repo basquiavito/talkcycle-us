@@ -103,7 +103,8 @@ export default function Home() {
           <ul>
             <li><Link href="/articles/Spanish-practice-with-the-verb-gustar">Spanish practice with gustar</Link></li>
             <li><Link href="/articles/Spanish-Practice-Word-of-the-Day-Cariño">Spanish practice word of the day: cariño</Link></li>
-            <li>Spanish practice with ser</li>
+            <li><Link href="/articles//articles/Spanish-Practice-with-Verbs-Ser-and-Estar">Spanish Practice With Verbs: Ser And Estar</Link></li>
+   
             <li>Practice Spanish with you</li>
             <li>Spanish words to practice rolling r</li>
             <li>Spanish practice for imperfect tense</li>
