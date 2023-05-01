@@ -46,14 +46,15 @@ export default function card(props){
  justify-content: center;
 text-align: center;
 margin-bottom: 1rem;
+color: #000;
   }
 
 
   @media (max-width: 400px){
     .cont {
 padding: 0;
-margin:
-
+ 
+color: #000;
     }}
 
 
@@ -65,7 +66,7 @@ margin:
     color: #2b2b2b; 
     text-align: center;
     font-family: Tiempos;
-  
+    color: #000;
   
   }
 
@@ -76,6 +77,7 @@ margin:
     margin: 0;
     line-height: 1.3;
     font-size: 1rem;
+    color: #000;
     
   }
 
@@ -85,6 +87,7 @@ margin:
 }}
 
 .dekkContainer{
+  color: #000;
  
   font-size: 1.4rem;
   line-height: 1.5;

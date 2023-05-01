@@ -33,7 +33,8 @@ export default function Home({ audios }) {
  <LazyLoad>
         <div className='containerHold'>
    
-        <Link  href={`/listen/${audio.slug}`}>
+        <Link  href={`/listen/${audio.slug}`} legacyBehavior>
+          <a className='linking'>
             <AudioCard 
          spanish={audio.spanish} 
          english={audio.english} 
@@ -43,7 +44,7 @@ export default function Home({ audios }) {
             
             
             />
-        
+        </a>
    
  </Link>
  
@@ -152,6 +153,11 @@ link={audio.link}
   display: flex;
   flex-flow: row wrap;
  
+}
+
+
+.linking {
+  color: #181818;
 }
       `}
     </style>

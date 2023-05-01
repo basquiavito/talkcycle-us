@@ -81,9 +81,9 @@ export default function Home({ articles  }) {
       <div id="main" key={article._id}>
 <div className='containerFluid'>
         <div className='containerHold'>
-        <Link  href={`/articles/${article.slug}`}>
+        <Link  href={`/articles/${article.slug}`} legacyBehavior>
        
-
+<a className='linking'>
             <Cargo2
             alt={article.title}
             player={article.player}
@@ -92,7 +92,7 @@ export default function Home({ articles  }) {
               image={`${article.image}`} 
               date={article.date}
            dekk={article.dekk}
-           />
+           /></a>
 
  </Link>
       </div>
@@ -130,6 +130,10 @@ export default function Home({ articles  }) {
           justify-content: center;
       
       }}
+
+      .linking {
+        color: #000;
+      }
      
       `}
     </style>
