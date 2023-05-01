@@ -95,8 +95,7 @@ slug={audio.slug }
           margin-bottom: 20px;
           font-family: tiempos;
           font-size: 15px;
-          padding-left: 20px;
-          padding-right: 20px;
+     
         }
         .pageGrid {
    
@@ -117,7 +116,7 @@ slug={audio.slug }
           font-size: 18px;
           font-weight: 400;
           overflow-wrap: normal;
-          padding: 12px;
+         
           max-width: 1600px;
           color: rgb(33, 33, 33);
       }

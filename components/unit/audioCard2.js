@@ -98,7 +98,21 @@ border-bottom: 1px solid #ccc;
     border-opacity: 0.2;
     padding: 5px;
  }
-        
+ p{
+    text-transform: none;
+    font-family: Walfolk;
+    font-feature-settings: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    overflow-wrap: normal;
+   
+    max-width: 1600px;
+    color: rgb(33, 33, 33);
+}
         `}
     </style>
     </>
