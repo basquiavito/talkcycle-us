@@ -5,7 +5,7 @@ import LinkToa2 from '../../../components/unit/linkToa2'
 import AudioCard2 from '../../../components/unit/audioCard2'
 import { InstagramEmbed,PinterestEmbed ,YouTubeEmbed, TikTokEmbed, TwitterEmbed } from 'react-social-media-embed';
 import Image from 'next/image';
-
+import Cabecera from '../../../components/unit/cabecera'
 export async function getStaticPaths() {
   const { db } = await connectToDatabase();
   const audios = await db.collection("audios").find({}).toArray();
@@ -37,7 +37,7 @@ export async function getStaticProps({ params }) {
  
     <div className="pageGrid">
         <div className="gridCenter">
-       {audio.title ? ( <AudioCard2
+       {audio.audio? ( <AudioCard2
 title={audio.title}
 spanish={audio.spanish}
 english={audio.english}
@@ -76,21 +76,28 @@ slug={audio.slug }
 ) : null }
 
 
-{ audio.gif ? (
-<div className="gifContainer">
-  <Image width="350" height="350" alt={`image of ${audio.player}`} src={audio.gif} />
-</div> ) : null }
-
 {audio.gram ? (
-  <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <div style={{ display: 'flex', justifyContent: 'center', flexFlow: 'column wrap'  }}>
+    <Cabecera title={audio.title} />
+      <div className='captionCont'><p>{audio.caption}</p></div>
     <InstagramEmbed url={audio.gram} width={320} />
+    <div className='captionCont'><p>{audio.caption2}</p></div>
   </div>
-) : null} 
+) : null } 
 
 
         </div></div> 
  
         <style jsx>{`
+
+        .captionCont{
+          max-width: 350px;
+          margin-bottom: 20px;
+          font-family: tiempos;
+          font-size: 15px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
         .pageGrid {
    
         display: flex;
@@ -99,7 +106,21 @@ slug={audio.slug }
             background-color: rgb(247 , 247, 243);
       min-height: 1000px;
         }
-        
+        p{
+          text-transform: none;
+          font-family: Walfolk;
+          font-feature-settings: normal;
+          font-style: normal;
+          letter-spacing: normal;
+          line-break: auto;
+          line-height: 28px;
+          font-size: 18px;
+          font-weight: 400;
+          overflow-wrap: normal;
+          padding: 12px;
+          max-width: 1600px;
+          color: rgb(33, 33, 33);
+      }
         
         `}</style>
   </>

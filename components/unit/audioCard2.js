@@ -21,7 +21,7 @@ function audiocard(props){
 <div>
  
 
-{ props.imgage ? ( <div className="imageContainer">
+{ props.image ? ( <div className="imageContainer">
 <Image  
 width="240"
 height="240"
