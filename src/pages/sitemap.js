@@ -3,6 +3,9 @@ import Link from 'next/link'
 
 export default function sitemap(){
     return <>
+    <Head>
+      <title>Sitemap -  Hooperos</title>
+    </Head>
     <main>
     <div className="container">
         <h1>Sitemap</h1>

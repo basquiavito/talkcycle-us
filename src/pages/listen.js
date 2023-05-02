@@ -18,7 +18,67 @@ export default function Home({ audios }) {
   
   
     return <>
+       
+       <Head>
+ 
+ <meta charSet="utf-8"/>
+ <title>Talkcycle | Listen </title>
+ <meta name="Description" content="Talkcycle.net — Spanish practice listening page gives tools — media, music, phonetics, pronunciation, and more — for you to improve your spanish skills "/>
+ <meta property="og:url" content="https://talkcycle.net/listen"/>
+ <meta property="og:type" content="Listen"/>
+ <meta property="og:title" content='Talkcycle: Listen '/>
+ <meta property="og:description" content="Talkcycle.net — Take your Spanish skills to the next level with Talkcycle's online Spanish course for adults. Our self-paced beginner's course includes easy online Spanish lessons and conversation classes through Zoom, designed to help you become fluent. Submit your practice conversations and receive expert feedback from our instructors, plus one live session a week for assistance and support. Choose the best online Spanish course  and start speaking Spanish like a pro with Talkcycle today!   "/>
+ <meta property="og:image" content=''></meta>
+ 
+ <link rel="icon" type="image/svg" href=""/>
+ 
+ 
+ 
+ <link rel="canonical" href='https://www.talkcycle.net/listen' content="index,follow"/>
+ 
+ 
+ 
+ 
+ 
+ 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+  <meta http-equiv="content-language" content="en"></meta>
+ <meta name="copyright" content="Copyright (c) Talkcycle 2023"></meta>
+ <meta name="author" content="Talkcycle"></meta>
+ <meta name="content-type" content="listen"></meta>
+ 
+  
+ <meta name="twitter:card" content="summary_large_image"></meta>
+ <meta name="twitter:creator" content="@talkcycle_us"></meta>
+ <meta name="twitter:title" content='Home'/> 
+ <meta name="twitter:description" content="Talkcycle.net — Take your Spanish skills to the next level with Talkcycle's online Spanish Practice platform. Our self-paced beginner's course includes easy online Spanish lessons and conversation classes through Zoom, designed to help you become fluent. Submit your practice conversations and receive expert feedback from our instructors, plus one live session a week for assistance and support. Choose the best online Spanish course  and start speaking Spanish like a pro with Talkcycle today!   "></meta>
+ <meta name="article:author" content='Talkcycle'></meta>
+ <meta property="twitter:image" content=''/>
+ <meta property="twitter:site" content="@talkcycle_us"></meta>
+ <meta name="twitter:url" content="https://www.talkcycle.net/listen">
+ 
+ 
+ 
+ 
+ 
+ </meta>
+ <meta name="robots" content="index, follow, max-image-preview:large"/>
+  <meta name="googlebot" content="all" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"></meta>
+  <meta name="Description" content="Talkcycle "/>
+  <meta name="google-site-verification" content=""></meta>
+ 
+  <meta property="og:url" content="https://www.talkcycle.net/listen"/>
+ <meta property="og:locale" content="en_US"/>
+ 
+ <meta property="fb:app_id" content=""/>
+ <meta property="og:site_name" content="Talkcycle"/>
+ 
+ <meta name="keywords" content='spanish listening, spanish pronunciation, spanish phonetics, online spanish course for adults, online spanish beginners course, online spanish conversation classes, online spanish lessons easy, best online spanish course for high school students, online spanish courses to become fluent, online spanish classes zoom
+' ></meta>
 
+
+      </Head>
 
       <main>
 
