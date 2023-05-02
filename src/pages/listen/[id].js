@@ -79,7 +79,7 @@ export async function getStaticProps({ params }) {
 <meta property="og:site_name" content="Talkcycle"/>
 <meta property="og:title" content={audio.title}/>
 <meta property="og:type" content="talkcycle"/>
-<meta property="og:url" content={`https://www.talkcycle.net/listeno/${audio.slug}`}/>
+<meta property="og:url" content={`https://www.talkcycle.net/listen/${audio.slug}`}/>
 <meta property="og:locale" content="en_US"/>
 
 <meta property="fb:app_id" content=""/>
