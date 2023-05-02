@@ -92,7 +92,9 @@ export async function getStaticProps({ params }) {
 </Head>
     
     
- 
+ <div className='timeContainer'>
+ <time className='date'>{audio.date}</time>
+  </div>
     <div className="pageGrid">
         <div className="gridCenter">
        {audio.audio? ( <AudioCard2
@@ -136,7 +138,7 @@ slug={audio.slug }
 
 {audio.gram ? (
   <div style={{ display: 'flex', justifyContent: 'center', flexFlow: 'column wrap'  }}>
-    <Cabecera title={audio.title} />
+  <div className='cabecera'>  <Cabecera title={audio.title} /> </div>
       <div className='captionCont'><p>{audio.caption}</p></div>
     <InstagramEmbed url={audio.gram} width={320} />
     <div className='captionCont'><p>{audio.caption2}</p></div>
@@ -179,7 +181,17 @@ slug={audio.slug }
           max-width: 1600px;
           color: rgb(33, 33, 33);
       }
-        
+      .timeContainer{
+         display: flex;
+         justify-content: center;
+         align-self: center;
+         
+        }
+
+
+        .cabecera {
+          max-width: 320px;
+        }
         `}</style>
   </>
   }
