@@ -32,7 +32,65 @@ export async function getStaticProps({ params }) {
 }
   export default function Audio({ audio }) {
     return <>  
-       
+       <Head>
+
+<title>{audio.title}</title>
+<meta charSet="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="msapplication-tap-highlight" content="no"/>
+<meta name="author" content="talkcycle"></meta>
+<meta name="copyright" content="Copyright (c) Talkcycle 2023"/>
+ <meta http-equiv="content-language" content="en"></meta>
+ 
+ <meta name="description" content={audio.ogDescription}></meta>
+<meta name="keywords" content={audio.keywords}></meta>
+<meta name="news_keywords" content={audio.keywords}></meta>
+<meta name="robots" content="index, follow, max-image-preview:large"/>
+ 
+ <meta name="googlebot" content="all" />
+ <meta name="google-site-verification" content=""></meta>
+
+ <meta property="article:published_time" content={audio.date}></meta>
+<meta name="article:author" content={audio.author}></meta>
+<meta property="article:section" content="tags"></meta>
+
+
+<meta name="twitter:card" content="summary_large_image"></meta>
+<meta name="twitter:creator" content="@talkcycle"></meta>
+<meta name="twitter:title" content={audio.title}/> 
+<meta name="twitter:description" content={audio.ogDescription}></meta>
+<meta property="twitter:domain" content="https://www.talkcycle.net"></meta>
+<meta property="twitter:image" content={audio.image}/>
+<meta property="twitter:site" content="listen"></meta>
+
+
+<link rel="shortlink" href={`https://www.talkcycle.net/listen/${audio.slug}`}></link>
+
+
+<link rel="icon" type="image/png" href=""/>
+
+
+<meta property="og:description" content={audio.ogDescription}/>
+<meta property="og:image" content={audio.image}></meta>
+<meta property="og:image:type" content="image/webp" /> 
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"></meta>
+<meta property="og:site_name" content="Talkcycle"/>
+<meta property="og:title" content={audio.title}/>
+<meta property="og:type" content="talkcycle"/>
+<meta property="og:url" content={`https://www.talkcycle.net/listeno/${audio.slug}`}/>
+<meta property="og:locale" content="en_US"/>
+
+<meta property="fb:app_id" content=""/>
+<link rel="canonical" href={`https://www.talkcycle.net/listen/${audio.slug}`} content="index,follow"/>
+ 
+
+
+
+ 
+</Head>
+    
     
  
     <div className="pageGrid">
