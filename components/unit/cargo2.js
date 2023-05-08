@@ -16,7 +16,7 @@ export default function card(props){
     
       
         />
-      <div className="headerContainer"><h2><span className="textContent">{props.title}</span></h2><br/>
+   
       
       
       <span className="dekk">{props.dekk}</span> 

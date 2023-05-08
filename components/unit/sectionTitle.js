@@ -6,7 +6,7 @@ return(
     <>
 <div className="sectionTitleContainer">
 <h1 className="sectionTitle">
- <span>{props.title}</span> 
+ <span> </span> 
 </h1></div>
 <style jsx>{`
 .sectionTitleContainer{
