@@ -413,7 +413,7 @@ heading8={article.headings[8]}
         .pageGrid {
    
             max-width: 64rem;
-    
+    padding: 1.5rem;
             margin: auto;
             background-color: rgb(247, 247, 243);
       

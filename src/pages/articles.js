@@ -80,7 +80,7 @@ export default function Home({ articles  }) {
     {articles.map((article) => (
       <div id="main" key={article._id}>
 <div className='containerFluid'>
-<div><h2><span>Articles</span></h2></div>
+  
         <div className='containerHold'>
         <Link  href={`/articles/${article.slug}`} legacyBehavior>
        
