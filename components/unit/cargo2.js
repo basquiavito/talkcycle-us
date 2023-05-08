@@ -16,7 +16,7 @@ export default function card(props){
     
       
         />
-   
+      <div className="headerContainer"><h2><span className="textContent">{props.title}</span></h2><br/>
       
       
       <span className="dekk">{props.dekk}</span> 
@@ -28,7 +28,7 @@ export default function card(props){
  <div className="authorContainer"><span className="authorContent"> By {props.author}</span></div>  
 
  <div className="authorContainer"><span className="authorContent"> {props.year}</span></div> <br/>
- <time className="timeContainer"><span className="timeContent"><span > {props.date}</span></span></time> 
+ <time className="timeContainer"><span className="timeContent"> {props.date}</span></time> 
 
      
       </Grid>
